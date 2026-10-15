@@ -1,0 +1,4147 @@
+{
+  "total_files": 461,
+  "canonical_phase_directory": "/PHASES/",
+  "application_id": "com.aistudio.cinestream.xyzabc",
+  "inventory": [
+    {
+      "path": ".env",
+      "file_type": "none",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": ".env.example",
+      "file_type": ".example",
+      "size": 652,
+      "sha256": "14bfd6f04b89b755ccc6eb2adc00a3c2702d4d7212f84733b49b00bf2affd209",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "file_type": ".yml",
+      "size": 8879,
+      "sha256": "2837dbba4337c2d25ed1c37ba361e23fe3dacdbd0cf939e15a47968a7a2d11f3",
+      "classification": "CI_WORKFLOW",
+      "decision": "KEEP_CI",
+      "reason": "Continuous integration and build verification workflow"
+    },
+    {
+      "path": ".gitignore",
+      "file_type": "none",
+      "size": 238,
+      "sha256": "5df59d885b5391359b43081259b7f6eb4227971e781f3fec1b0e58a1d4ddcd8e",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": "PHASES/PHASE_06.10_LEGACY_DEAD_CODE_MIGRATION_DEPENDENCY_RESOURCE_RECONCILIATION_FORENSIC_AUDIT_REPORT.md",
+      "file_type": ".md",
+      "size": 51696,
+      "sha256": "4a092ef95fdf2411e0e4a735c8b9884e1486237f97a35ca12534c3705e44619a",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_06.11_CROSS_SYSTEM_ROOT_CAUSE_RECONCILIATION_AND_FINDING_NORMALIZATION_REPORT.md",
+      "file_type": ".md",
+      "size": 64802,
+      "sha256": "2e1a73a72531338ace2a5bea903f91e995393d2f9e80397e48e72ef28272960d",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_06.12_FINAL_GLOBAL_FORENSIC_AUDIT_AND_REMEDIATION_READINESS_GATE_REPORT.md",
+      "file_type": ".md",
+      "size": 40086,
+      "sha256": "3ed02eb12c17146f1befd9ad66a1070c69615bc39ea52e2ae941c4a1b088723f",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_06.3_PERFORMANCE_SCROLL_ANIMATION_FORENSIC_AUDIT_REPORT.md",
+      "file_type": ".md",
+      "size": 38636,
+      "sha256": "ee1b1306750b3190f8ac14f4b4b079ffcbd89adab02af9776bf355c9b3958b62",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_06.4_DATA_FIREBASE_ROOM_NETWORK_FORENSIC_AUDIT_REPORT.md",
+      "file_type": ".md",
+      "size": 50894,
+      "sha256": "4ad93ddcb3c4b8c0b45656af090e3ccb1ca9bca74c4d6e5b62806c86a9836d91",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_06.5_PLAYBACK_DOWNLOAD_WEBVIEW_SCRAPER_MEDIA_EXECUTION_FORENSIC_AUDIT_REPORT.md",
+      "file_type": ".md",
+      "size": 65896,
+      "sha256": "d8f673b7bbc03409cf6e2c3b1538b4c3579797f647a8722f2c91b34f9c634802",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_06.6_SOCIAL_CHAT_STORIES_SUPPORT_NOTIFICATIONS_P2P_FORENSIC_AUDIT_REPORT.md",
+      "file_type": ".md",
+      "size": 44179,
+      "sha256": "e2186e17836105072b68920b960d8401f5dde966a7856a05ce1ce21cdf7bcf5d",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_06.7_ECONOMY_SUBSCRIPTION_ADS_REWARD_LEADERBOARD_CONFIG_SETTINGS_FORENSIC_AUDIT_REPORT.md",
+      "file_type": ".md",
+      "size": 39251,
+      "sha256": "7b052e30ef8ea182e1e5237054fca5cfca981f01f1148e1ad09902314422ba8b",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_06.8_SECURITY_PRIVACY_MANIFEST_WEBVIEW_RELEASE_HARDENING_FORENSIC_AUDIT_REPORT.md",
+      "file_type": ".md",
+      "size": 44906,
+      "sha256": "1ab2e34754a795b07dc869d653f29b749727d7c59d1265796ddba92fb7dd43de",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_06.9_END_TO_END_OPERATIONAL_CORRECTNESS_FORENSIC_AUDIT_REPORT.md",
+      "file_type": ".md",
+      "size": 57163,
+      "sha256": "0bea917a345316cbc1023f81c9973578c130885e50fd4a7f4697748b568ccee4",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_FINAL_GLOBAL_FORENSIC_AUDIT_REPORT.md",
+      "file_type": ".md",
+      "size": 21620,
+      "sha256": "9fefd94a8eebc127408daf1bff05b8a4e1892c89ebb2f33d453c0a217bed8b8f",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_UNIFIED_WAVE_5_6_7_IMPLEMENTATION_REPORT.md",
+      "file_type": ".md",
+      "size": 16221,
+      "sha256": "590d2f3399548275189e9bcd324ba58ece4f6eca4f687dba31f01badb3f56a93",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_0_1_F008_COMPLETION_REMEDIATION_REPORT.md",
+      "file_type": ".md",
+      "size": 13458,
+      "sha256": "49562e173ef5b58d7a4214c70faf7b77c7243fdadefd2ac7a0ff9f335c78408b",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_0_2_F008_PHYSICAL_SOURCE_STATE_RECONCILIATION_REPORT.md",
+      "file_type": ".md",
+      "size": 12731,
+      "sha256": "1a52d7a0ad954bb013b0b9feda2c68930a2ab970bbe9c9faebdc23de159f3272",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_0_SAFETY_ENVIRONMENT_FOUNDATION_REMEDIATION_REPORT.md",
+      "file_type": ".md",
+      "size": 21841,
+      "sha256": "c57284dd084f7fbf5e2c7c3bf05e7ba8686404f9f06a49437aafd59c0789bc56",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_10_PLAYBACK_SEARCH_OFFLINE_FORENSIC_DIAGNOSIS_REPORT.md",
+      "file_type": ".md",
+      "size": 39098,
+      "sha256": "0b90361a12e9b06c69e6111c1d1e9f147ae2ba01ba7d5419fc444ad3df97a7e7",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_11_TARGETED_REMEDIATION_REPORT.md",
+      "file_type": ".md",
+      "size": 15933,
+      "sha256": "fe99f971252e111ec54f33bd6f8a9c68b8bc1f4d73c4591c02fe78d56d9e65d8",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_12_FILTERS_AND_VIDAPI_ADMIN_INTEGRATION_FORENSIC_AUDIT.md",
+      "file_type": ".md",
+      "size": 41287,
+      "sha256": "f40d185aa5c8f5f8bf5b41c25fa92c34f42c0b9e1b09d12a8159c8d520d1d30d",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_1_1_1_F004_FINAL_VERIFICATION_RECONCILIATION_REPORT.md",
+      "file_type": ".md",
+      "size": 18045,
+      "sha256": "b0982dc7f3cde139c5c90825ebdb1455906c9fab6008402df6878422a7dc2c23",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_1_1_F004_CONFIDENTIAL_TRANSPORT_COMPLETION_REPORT.md",
+      "file_type": ".md",
+      "size": 21470,
+      "sha256": "380012b4f9e273d0bc842613327876ffa33983cd72b4a3917031d0dbfafaa4c5",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_1_CORE_SECURITY_STORAGE_BOUNDARIES_REMEDIATION_REPORT.md",
+      "file_type": ".md",
+      "size": 21470,
+      "sha256": "5635a451c915d2c6754f08a8ae4dd6e25c5bbd37cbe68115cace433f5f6afcd6",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_1_HARD_GATE_PRECONDITION_FAILURE_REPORT.md",
+      "file_type": ".md",
+      "size": 5420,
+      "sha256": "5353a30a7b3fbaec9cdcb365ad6eda5564b457f4bf9eeecc985aa43c00eb5369",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_1_PRECONDITION_FAILURE_REPORT.md",
+      "file_type": ".md",
+      "size": 5244,
+      "sha256": "2947f4c6a7939f381ab1c31330486abfa8dbff5434a5372f9eb5e4ee200fa46f",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_2_1_FINAL_VERIFICATION_GAP_CLOSURE_REPORT.md",
+      "file_type": ".md",
+      "size": 9313,
+      "sha256": "a7ccaa7c13903c754ffe51b8c4b963f015c877632e2274a0bcd1e4c99e9196ee",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_2_SESSION_BOUNDARY_ACCOUNT_LIFECYCLE_MULTI_USER_ISOLATION_REPORT.md",
+      "file_type": ".md",
+      "size": 23444,
+      "sha256": "5019c0d2e66084be13e09dbbf4f85087e9383dd9b5ac23d8db4511bea332ebf3",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_3_1_F019_ROOM_MIGRATION_FORENSIC_VERIFICATION_REPORT.md",
+      "file_type": ".md",
+      "size": 19138,
+      "sha256": "2de696a6c0daa2c6f2b710968f0807014e521b5a760e5f19c4fbedc431d34556",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_3_STARTUP_PERSISTENCE_STABILIZATION_REPORT.md",
+      "file_type": ".md",
+      "size": 16106,
+      "sha256": "7945cc82b4c2e7fc75b96c9ed63e6da824f9379bc1cdc9b0f1dd68a6f279c1f5",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_4_1_PLAYBACK_REGRESSION_FINAL_VERIFICATION_REPORT.md",
+      "file_type": ".md",
+      "size": 16196,
+      "sha256": "1447280608ee0078340832d757b1073ed4b5bf5649fd620438ea60d2e0db53fd",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_4_PLAYBACK_ORCHESTRATION_CONSOLIDATION_REPORT.md",
+      "file_type": ".md",
+      "size": 19933,
+      "sha256": "2955516011f4cb2d5c8ed3cbdbfc9c2d00cc427897f57ed87fc6d98b754dff74",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_8_1_COMPILER_AND_UPDATE_VERIFICATION_REMEDIATION_REPORT.md",
+      "file_type": ".md",
+      "size": 15580,
+      "sha256": "ad9fd94d9d2b94dbe7b664e1f744e0813ec737236fc210d82163d04847b7a31d",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_8_COMPREHENSIVE_VERIFICATION_REGRESSION_REPORT.md",
+      "file_type": ".md",
+      "size": 40177,
+      "sha256": "0379aef04828e9cfe7d19318d3500809dd0da97c0bf72807bed41748fc2a9989",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_07_0_WAVE_9_NETWORK_SKELETON_SEARCH_REMEDIATION_REPORT.md",
+      "file_type": ".md",
+      "size": 18604,
+      "sha256": "8520a42f0a8418420362489287e63d4b0f03b26c821ef9e24df9ccb7e187e357",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_08.1_CATEGORY_NAVIGATION_RESTORATION_REPORT.md",
+      "file_type": ".md",
+      "size": 8971,
+      "sha256": "d2d17287c724393983360fefb7b3ef796eab3b059b4c34e8cc5bae3e1a72f289",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_08_ADVANCED_FILTER_ACTIVATION_PREMIUM_DROPDOWN_MOTION_REPORT.md",
+      "file_type": ".md",
+      "size": 5902,
+      "sha256": "c4f425be8ac6609cacc88bf82c06bbb1660a273a10ccb56c30876247e97cf6b1",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_09A_DUBBED_SUBTITLED_MULTI_PROVIDER_FORENSIC_AUDIT_REPORT.md",
+      "file_type": ".md",
+      "size": 26698,
+      "sha256": "36a7af711ca4c8ab118c0ded0c2d0c4daaeb0899192b279ae22d655b033b6ed0",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_09B_B_1_INDEPENDENT_VERIFICATION_AUDIT_REPORT.md",
+      "file_type": ".md",
+      "size": 11903,
+      "sha256": "4d994a8beefb585091f91147bc425625c7ce93bb59adcfb42071ea181e499101",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_09B_B_DUBBED_SUBTITLED_MULTI_PROVIDER_IMPLEMENTATION_REPORT.md",
+      "file_type": ".md",
+      "size": 9499,
+      "sha256": "9774c03c3fabcba418bbd4a53414f7cd6fa8a142c4d6a4a6abe437011b193c64",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_09C_CRASH_REMEDIATION_VARIANT_UI_PLAYER_REPORT.md",
+      "file_type": ".md",
+      "size": 7560,
+      "sha256": "bfaaa7fd52308374fe7cd3e10ddc292ce2439156d9e7c686115f29e8cdaac80e",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_10A_REPOSITORY_CLEANUP_TEST_CONSOLIDATION_DOCUMENTATION_REPORT.md",
+      "file_type": ".md",
+      "size": 18394,
+      "sha256": "d4035080162d1bdab129f971e22d5e43b07353205363c9cd3760e0a53b7b6722",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_10B_DUBBED_MODE_AND_TMDB_IDENTITY_PRESERVATION_REPORT.md",
+      "file_type": ".md",
+      "size": 8924,
+      "sha256": "53974dd0be1481949f9c6ccfd3717595b02cb0df24cf4946d6f7b53375ae0182",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/PHASE_10C_STATIC_FORENSIC_AUDIT_AND_REPOSITORY_CLEANUP_REPORT.md",
+      "file_type": ".md",
+      "size": 35376,
+      "sha256": "8b6641fd313ad26bdc1f31f4ca6a020dc2d5b0ccebb90d76836c0b0330f12beb",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "PHASES/README.md",
+      "file_type": ".md",
+      "size": 12162,
+      "sha256": "21c25c0445625dac8491ffc7d5982f13a52720ea790ba3e7df2889af7f426030",
+      "classification": "CANONICAL_PHASE_DOCUMENT",
+      "decision": "KEEP_CANONICAL_PHASE",
+      "reason": "Authoritative Phase report or index in canonical /PHASES/ directory"
+    },
+    {
+      "path": "app/.gitignore",
+      "file_type": "none",
+      "size": 7,
+      "sha256": "5b46eb48d96e8571e8c93e4ef4f6ffbe6807b6d7350664a36a064e1167a32718",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "file_type": ".kts",
+      "size": 6116,
+      "sha256": "fcd3cfa993cdc63c0510ed822ee89bd503d78ed0c5a787c065013b6753a671fa",
+      "classification": "BUILD_CONFIGURATION",
+      "decision": "KEEP_CONFIG",
+      "reason": "Essential Gradle build configuration"
+    },
+    {
+      "path": "app/google-services.json",
+      "file_type": ".json",
+      "size": 585,
+      "sha256": "f914d5081e3d99ab6286b1a0a434b18379a02efdc57ee06773254cc4822384a1",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": "app/proguard-rules.pro",
+      "file_type": ".pro",
+      "size": 1540,
+      "sha256": "5eaf18902b06f5fef396ab475f4d2f02f44e1d9f937f08d9c7a93153e2d7f80a",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/ExampleInstrumentedTest.kt",
+      "file_type": ".kt",
+      "size": 643,
+      "sha256": "c6ef958cafb00dbec798a71f5be604e9cf56189676312bea40f63dd07ca0d674",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "file_type": ".xml",
+      "size": 3545,
+      "sha256": "8fc295277ab57d659e7f5611d83a2b0804639d9e6a8877a2151decc494edb1d6",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/MainActivity.kt",
+      "file_type": ".kt",
+      "size": 16162,
+      "sha256": "27d62d7455f880be78a273060c894d507a4203b8858aad22bb51308f2b80e375",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/MyApplication.kt",
+      "file_type": ".kt",
+      "size": 3770,
+      "sha256": "04fe1580c516af2b6cac043d7b36c873b01d5067c7c1d1a9109d58129852770d",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/db/AppDatabase.kt",
+      "file_type": ".kt",
+      "size": 11120,
+      "sha256": "4707f1043214a6a55be5071758dd898546529ae6c2925f9264c1ee930b18652a",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/db/DownloadDao.kt",
+      "file_type": ".kt",
+      "size": 987,
+      "sha256": "96064fd345e21bf7d9436d9eacc8796d545abac4b8fc198beb4416e3178a893e",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/db/HistoryDao.kt",
+      "file_type": ".kt",
+      "size": 1257,
+      "sha256": "e8ea1855add84248cbf6d2c22f9a739682f4b424876dfbff97bc18d7538e798c",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/db/LibraryDao.kt",
+      "file_type": ".kt",
+      "size": 1531,
+      "sha256": "5320ae8730b0032df6b12ffa0fae36f654b6c08096e3beaa56f9c0f4c6366aec",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/db/NotificationDao.kt",
+      "file_type": ".kt",
+      "size": 1131,
+      "sha256": "122ee6a16b25669a74c535986c14809fbe595ff3d40438945c3c6a56be18b3be",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/db/SupportDao.kt",
+      "file_type": ".kt",
+      "size": 663,
+      "sha256": "fe7bed117256c462a1e47a171aee3fe1f8c6b15e61492bfe6969534b997364d9",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/db/WatchedEpisodeDao.kt",
+      "file_type": ".kt",
+      "size": 634,
+      "sha256": "5f6ff58da78d1465ff5d7dd1ed52501d3d11baf76e3ccd1e13eb485b01e76c68",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/model/AppConfig.kt",
+      "file_type": ".kt",
+      "size": 4917,
+      "sha256": "11aa738cd6b96a471e38583b1a50dd95552994e25762b9218bcb179d5ecdde45",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/model/ContentType.kt",
+      "file_type": ".kt",
+      "size": 1029,
+      "sha256": "c3e4c867eeb07b1b9b5a2d5afae3c4cceffec7dbec328c0858daad52a86dc1df",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/model/DownloadItem.kt",
+      "file_type": ".kt",
+      "size": 1401,
+      "sha256": "7b51e3c3da477d1c613dc1418c76779ca87863e41879fe5fcb7f6129c9f37626",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/model/EconomyModels.kt",
+      "file_type": ".kt",
+      "size": 3580,
+      "sha256": "120a28cfb108bb18a34f6f32e4202c8e84c30a7cddad500ee0d34289d6baeaf9",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/model/HistoryItem.kt",
+      "file_type": ".kt",
+      "size": 407,
+      "sha256": "0b1ddca1b4f470740e707533a17abe3004748573610b97805edff95f05e89917",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/model/LibraryIdentity.kt",
+      "file_type": ".kt",
+      "size": 2674,
+      "sha256": "7dffe34bd6abcaa6ecc1f75c974bb5504544bcba0e2d09c31d729edefccd0e08",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/model/LibraryItem.kt",
+      "file_type": ".kt",
+      "size": 6119,
+      "sha256": "ff9521680b6bd5ca6bb09b927f2ba79a6a16f5e747a96df6ce0c8fa450eb5c33",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/model/NotificationItem.kt",
+      "file_type": ".kt",
+      "size": 433,
+      "sha256": "d952011f4158a367627d2b4f79795b520c0b00a8a1d5b2a2979bc3d15cf4e3a1",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/model/NotificationPreferences.kt",
+      "file_type": ".kt",
+      "size": 4346,
+      "sha256": "f4457407af6487978e07615811eab4defc248572dffe3d900885d43c70dda2be",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/model/P2PTransferRecord.kt",
+      "file_type": ".kt",
+      "size": 2107,
+      "sha256": "ff5e2d300c3c4a5427e0bddc770d6671458afb6c7fe326607755979ac343d322",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/model/PointsEarningModels.kt",
+      "file_type": ".kt",
+      "size": 7051,
+      "sha256": "0257072f2d9759eb88bf45e827197e9e0ffe3218b1a3b3d8cf79f1e37ae5a3a3",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/model/Report.kt",
+      "file_type": ".kt",
+      "size": 3744,
+      "sha256": "c3f71dbf7ac847187c95c4610cd382b1c4bd7f2a3ef7fd13e9ecb84f4d0e7c7b",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/model/SubscriptionModels.kt",
+      "file_type": ".kt",
+      "size": 8529,
+      "sha256": "3730ab74597c20089257a1c479220490e99679d08b9fafd18c8291345bfaa931",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/model/SupportMessage.kt",
+      "file_type": ".kt",
+      "size": 339,
+      "sha256": "b4c5195048bbab2a3808ae74b981302de50de3b9a47accb7e85e401d6ab140f8",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/model/UserRestrictions.kt",
+      "file_type": ".kt",
+      "size": 5014,
+      "sha256": "25887783f36364a48448a02bb229f614104ffebabbb6bc6d5e87eeda9bfa739d",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/model/WatchedEpisode.kt",
+      "file_type": ".kt",
+      "size": 330,
+      "sha256": "fbb50c57d048bb4da6cddceb6c166b19bf2a22a4269ae404865bc2b07f391ea8",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/notification/FcmPayloadContract.kt",
+      "file_type": ".kt",
+      "size": 4327,
+      "sha256": "61e572fda8b1ec3748df81af393f5f9d3eb1f8feffb91136201ccc2e6f007ced",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/notification/FcmPayloadParser.kt",
+      "file_type": ".kt",
+      "size": 10103,
+      "sha256": "e178c03dbf021dad6ba968cfbe20214d616ef1e14a89fac63d4138a267f95280",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/notification/FcmTargetValidator.kt",
+      "file_type": ".kt",
+      "size": 1515,
+      "sha256": "9e1701ec02b3b5e56a1b7d958c33e637bc53292583f7a005ae323ed950bd82e9",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/notification/FcmTokenDocument.kt",
+      "file_type": ".kt",
+      "size": 2058,
+      "sha256": "063d453cd7365b7f0e8a9a6bfa0f9108a904490279f65f9d11002ccd0cc27d6e",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/notification/FcmTokenManager.kt",
+      "file_type": ".kt",
+      "size": 13596,
+      "sha256": "6ceea986859620ca4f3c12d51524d2c5c6ca119bca958d6dc133c77aacb65bfb",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/notification/NotificationCategory.kt",
+      "file_type": ".kt",
+      "size": 4329,
+      "sha256": "f261cec8416628a3ec1c8bc8915ae4f8b5ae9b83b1c3331e6fafa8bd9486df15",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/notification/NotificationChannels.kt",
+      "file_type": ".kt",
+      "size": 3625,
+      "sha256": "ffff3c612fa2eb79d2637f66936b2eb2c7dc50438983edbb7e7c32174f888f56",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/notification/NotificationDeduplicator.kt",
+      "file_type": ".kt",
+      "size": 7920,
+      "sha256": "6d0c6e31964b2944fdd66c25ae1caa48c80008bb09ed3903cb495fd0669f4b43",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/remote/RetrofitClient.kt",
+      "file_type": ".kt",
+      "size": 4213,
+      "sha256": "9af9d7cac3dd9ce566a8bfeb21e415c74f405aa36eef1d6d1630a2f1af791a64",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/remote/TmdbApiService.kt",
+      "file_type": ".kt",
+      "size": 6853,
+      "sha256": "bed2fc329613fa2020081e777aa45c1e0aa65121fb788dd4942664a9ea7f4edc",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/remote/TmdbModels.kt",
+      "file_type": ".kt",
+      "size": 10432,
+      "sha256": "d4dff7b41f8cfb077f73d1056a137ead729a5912dfa0621cbb7544d3094509a0",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/AnimePlaybackStore.kt",
+      "file_type": ".kt",
+      "size": 4068,
+      "sha256": "0f8d14795922555aff13ccde9cd5a1a498881839b8fe5aa204436dc9a29b6f7a",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/AppStartupManager.kt",
+      "file_type": ".kt",
+      "size": 15072,
+      "sha256": "45db1fa77e651a36262ae59a05aeb3e792c19e2f4d9d4f286e20c23cac00649b",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/AppUpdateManager.kt",
+      "file_type": ".kt",
+      "size": 11972,
+      "sha256": "52727da7f1564242fcb5e6fb508bb38271d9bce8c369e228530b19681b268fee",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/AuthRepository.kt",
+      "file_type": ".kt",
+      "size": 29535,
+      "sha256": "4a7e4efcec0d20f22b7e1740ba7b6ba2d249c8c9d2bab9803c95641779857013",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/ContinueWatchingMetadataManager.kt",
+      "file_type": ".kt",
+      "size": 7373,
+      "sha256": "067e7e2c7e3f7278d19fc9e5e5ab4735d955bd7768e7f3fb3ea76b1ac89b89fe",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/DownloadManagerService.kt",
+      "file_type": ".kt",
+      "size": 9264,
+      "sha256": "9d90aaeb684db6809dc90f1278bb896fe7612db399cd6c1cd04819fa1d79a548",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/DownloadRepository.kt",
+      "file_type": ".kt",
+      "size": 2761,
+      "sha256": "e09aef01ba86a38398e4e8d0eb55e53aab7a5602a64abfd0fe3815b63db5779b",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/EconomyConfigRepository.kt",
+      "file_type": ".kt",
+      "size": 6608,
+      "sha256": "07bdeeba236d0737ddbb65f6c9ce35b45382ea26c0c8413a90693d8ddb0144b1",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/HistoryRepository.kt",
+      "file_type": ".kt",
+      "size": 8163,
+      "sha256": "a45974e8c52a7215fb9fa5ac5dc0d6fa740c438c6e6be8900781a601e6ba2158",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/LibraryRepository.kt",
+      "file_type": ".kt",
+      "size": 3263,
+      "sha256": "fa0590c2208e66ccd926697bd2f70d882bae42f6f62780ed36b94f64faf3f3c9",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/NearbyDeviceRepository.kt",
+      "file_type": ".kt",
+      "size": 4520,
+      "sha256": "d33d360e5d6bda9d67ce8bafdea89cc004cae5c67e3a2d74622c71b61a46b854",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/NotificationPreferencesRepository.kt",
+      "file_type": ".kt",
+      "size": 10842,
+      "sha256": "35c9dc2c792f8620d495194d7e0ec964f36ab612d9546a43980d15521f260138",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/NotificationRepository.kt",
+      "file_type": ".kt",
+      "size": 11368,
+      "sha256": "93baaa284f21262656b270fc7bc52ad0012642190a07f30ae7235dbdb4d062c7",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/P2PTransferRepository.kt",
+      "file_type": ".kt",
+      "size": 3323,
+      "sha256": "e28bad4f8c1f0e577cbc172fe2a5313265c0319525d09172f3fad8b7d2023724",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/PointsEarningRepository.kt",
+      "file_type": ".kt",
+      "size": 26892,
+      "sha256": "364409e1d836dd0ea833bbaf218058863caf15591d0a90638ca79269f0b44711",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/PointsRepository.kt",
+      "file_type": ".kt",
+      "size": 8278,
+      "sha256": "c674f89402d212e3b18616588be4bcbb058262422e4b6f8910fe9a74b29ac316",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/ReportRepository.kt",
+      "file_type": ".kt",
+      "size": 2248,
+      "sha256": "be81a6e7392708b5dc2e4dabb523197d1e3bdade47a1d81cb143ad6c72d0c38c",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/SocialRepository.kt",
+      "file_type": ".kt",
+      "size": 19278,
+      "sha256": "241115a716ffba25cb4882996cfd803abf1a9f9db23d2e6a2fcfaebd5e17f40f",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/SourceCoverageRepository.kt",
+      "file_type": ".kt",
+      "size": 7494,
+      "sha256": "c61ce54488fab38c4d029c2283c30ad757c643f1448f03408bf8949180a0bbf4",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/TemporaryFirebaseEconomyRepository.kt",
+      "file_type": ".kt",
+      "size": 32089,
+      "sha256": "c69de1b06052a4ad393127e76bf9b67ed4756b00e6f6fa07d700f6d644041831",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/TmdbListPaginator.kt",
+      "file_type": ".kt",
+      "size": 14696,
+      "sha256": "d596d74d7ba073bc324de9dd30babe1f492ee54c47bc4ece2646f249ad8cebb3",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/TmdbMediaRepositoryImpl.kt",
+      "file_type": ".kt",
+      "size": 39057,
+      "sha256": "dc544f1044f9f9c550c6913c252669e21e6dac0ddf7f51311ed6fd78db916b31",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/UpdatePackageVerifier.kt",
+      "file_type": ".kt",
+      "size": 4883,
+      "sha256": "4c6346c6624b350896d145ff0b8fb0f85b8924f8016248c47d6981fac1f41c50",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/UserPreferencesRepository.kt",
+      "file_type": ".kt",
+      "size": 7609,
+      "sha256": "fa51cd11faf7c4e9511ab27f81c2007e4758c4c3e96b41cb903b5c47328bdd2c",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/UserSecurityManager.kt",
+      "file_type": ".kt",
+      "size": 12623,
+      "sha256": "8ebee8273b4a6a425afe3021abb08631003acab8a48ea103b3acd0dae2eada11",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/repository/WatchedEpisodeRepository.kt",
+      "file_type": ".kt",
+      "size": 1424,
+      "sha256": "abe3f4536e9546c4f501297963d76276bb8b09ca03cd3587620f659de1aa13b8",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/session/SessionManager.kt",
+      "file_type": ".kt",
+      "size": 9880,
+      "sha256": "299b074c67e060d5bc1a440819db114c64d625f38e5bf4db874b431de9ee5ea4",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/sync/CloudSyncManager.kt",
+      "file_type": ".kt",
+      "size": 13139,
+      "sha256": "fb3a8ab68d700b3219779c5e2247b5c6b7d6faae81442ef98b1fb9cc22aa7e49",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/util/ContentTypeResolver.kt",
+      "file_type": ".kt",
+      "size": 3193,
+      "sha256": "f487eff6e0a188e1d1e65681d5c3fd1493623c507dfd3d30e5b13d5b3910bb9b",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/util/MediaAnimationClassifier.kt",
+      "file_type": ".kt",
+      "size": 3004,
+      "sha256": "bc94fa5b1bdf89dd73afe3dc7e44d85da87217617b3218467c50ae0a22c35fa3",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/data/util/TmdbGenreHelper.kt",
+      "file_type": ".kt",
+      "size": 8655,
+      "sha256": "290280c7cbd462acf2778fb4d62bcbfa3ec736a3c7ec1bc78087542e5cf1d4b8",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/di/AppContainer.kt",
+      "file_type": ".kt",
+      "size": 489,
+      "sha256": "3cbb0a3a361862714c3303066b4c7961acbfc3863b1cacd9d8e747771bc06fe3",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/domain/models/Media.kt",
+      "file_type": ".kt",
+      "size": 2704,
+      "sha256": "0e7a0cd4c8e1141efc1dd69f4f92fc9c1f065791873314583b0327cb123b2a5d",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/domain/models/PaginatedResult.kt",
+      "file_type": ".kt",
+      "size": 220,
+      "sha256": "2e3d236ab096036355e475d63680d3fcb8c5ddb79d00113c132d53f054ea3d4e",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/domain/models/StreamModels.kt",
+      "file_type": ".kt",
+      "size": 1170,
+      "sha256": "7a0244c1173371c58937b7ea1be01e551ed5f1ea0b8673fe4f373f946b7873d8",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/domain/models/TmdbException.kt",
+      "file_type": ".kt",
+      "size": 831,
+      "sha256": "a84ad83513b5f2c01eb0c3f14fceb9061f69a4e91f91d8b91645010595026017",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/domain/models/VariantModels.kt",
+      "file_type": ".kt",
+      "size": 4564,
+      "sha256": "10b491213038a6716b96a6238fdae59c11450548bdbfc5aa4811d37d17941220",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/domain/repository/MediaRepository.kt",
+      "file_type": ".kt",
+      "size": 3331,
+      "sha256": "77f30475f11a70d1da42ad2bcfd17368fd533119a5845562e4f8063cde72029c",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/domain/search/SearchTriggerParser.kt",
+      "file_type": ".kt",
+      "size": 4321,
+      "sha256": "0fde2107e14e53fbf501af878cebd1fa0200a27377c76cabd21053d6c54311a0",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/adapter/DownloaderHandoffAdapter.kt",
+      "file_type": ".kt",
+      "size": 4937,
+      "sha256": "391f572fe3c530a62eb807cc07c077d960431c029b12027e6c2be3d85d3fefc0",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/adapter/PlayerHandoffAdapter.kt",
+      "file_type": ".kt",
+      "size": 1484,
+      "sha256": "ad7fb70bde1ca85c1fa4d5da5c8a97d7639cc06b1b9c8712ebeb2a26300e8947",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/adapter/UnifiedDownloadCoordinator.kt",
+      "file_type": ".kt",
+      "size": 13479,
+      "sha256": "be3f3a5d8185144ae5676458c35847a813a42b32b76bd56d1397c35e8a6f2d7b",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/contract/BaseSiteScraper.kt",
+      "file_type": ".kt",
+      "size": 4328,
+      "sha256": "d43da70cf99aec69600c2b4b9e0ba4b4953df24f509f211bfbd87f42167412ea",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/contract/ControlledManagedExtensionRuntime.kt",
+      "file_type": ".kt",
+      "size": 1702,
+      "sha256": "9eb376c50f06613423b906f71643c2ef87d29f13a65fecc43d88fb79b9f81c44",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/error/ExtensionError.kt",
+      "file_type": ".kt",
+      "size": 5244,
+      "sha256": "58ae443f00853a1dfe7f0d29f9ea370e7d1b243746aeebdd5dcb110e72502288",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/model/ChallengeStatus.kt",
+      "file_type": ".kt",
+      "size": 149,
+      "sha256": "0f682ca23235bffc7dd26e580b26b43aaf2453f2403cc04e743bf34bc4f2ee75",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/model/ContentType.kt",
+      "file_type": ".kt",
+      "size": 1105,
+      "sha256": "bd1e166441589c3a0ab9a4e1338903e55c6976572cbb83cfe04573ac7c48cf00",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/model/ExtensionLifecycleStatus.kt",
+      "file_type": ".kt",
+      "size": 143,
+      "sha256": "452bf19286f6b7181aba8c3ad4d92c72ed30518796b44d699b5cbad345b63b09",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/model/ExtensionRuntimeSnapshot.kt",
+      "file_type": ".kt",
+      "size": 1278,
+      "sha256": "05b955c23281620e2cbd8f1029e476a180656ce5f4d5b6ba09a660db8a51122e",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/model/ExtractionModels.kt",
+      "file_type": ".kt",
+      "size": 4011,
+      "sha256": "7bcd192b9464d9939ab296509395eb3d2baa68529c09599208586b2e57a48d30",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/model/GlobalExtensionConfigState.kt",
+      "file_type": ".kt",
+      "size": 614,
+      "sha256": "0cdac516c1fba7b2f0d66cf81d74cf12a2bae977de66cc05dc4c9cd2b18e2a4f",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/model/ManagedExecutionState.kt",
+      "file_type": ".kt",
+      "size": 429,
+      "sha256": "0b23cc68db947477a2c59dbf941b2b5af955d9d32361516c518a952b9f065370",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/model/ManagedExtension.kt",
+      "file_type": ".kt",
+      "size": 1025,
+      "sha256": "099f02c6e728330f793f67242dd5ef659138f2acd4fe44bfd8dabda90120ecef",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/model/ManagedExtensionValidator.kt",
+      "file_type": ".kt",
+      "size": 4994,
+      "sha256": "bf670c942762b96a7f6148c114d4840d55b4151743a5fc796f198c19eb35c14a",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/model/MediaDetailsModels.kt",
+      "file_type": ".kt",
+      "size": 1408,
+      "sha256": "4d2371b731166564328ecc060c0b8e06301539750eff84ec7f7d7fa3dc143b0d",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/model/MediaVariantParser.kt",
+      "file_type": ".kt",
+      "size": 1338,
+      "sha256": "2064e8fed0591cb20ad7ab7a138683c4d9dde0d37eb02a68565a03ff21ba6fbc",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/model/QualityAggregationModels.kt",
+      "file_type": ".kt",
+      "size": 11477,
+      "sha256": "22bd5a5b14c26382ddac6cb3d8aaf53861c717ceeee228e14ce17ef1099621f4",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/model/ScraperCapability.kt",
+      "file_type": ".kt",
+      "size": 181,
+      "sha256": "4fa6831a2a0220b425fb0d8e79ec43bc15c4fe4f1ba3b2d1798bc78d4836d075",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/model/SearchModels.kt",
+      "file_type": ".kt",
+      "size": 833,
+      "sha256": "4b1df251cffd77bf3aa6b23930d4fe32619d1616b06522e9559ddd32cc1d4629",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/model/ServerModels.kt",
+      "file_type": ".kt",
+      "size": 1061,
+      "sha256": "a97dea504a3d65ba1664a44aabcf5995ed8c5c686cd03a3ad7fbea089a4f6a5d",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/playback/MediaTitleResolver.kt",
+      "file_type": ".kt",
+      "size": 3637,
+      "sha256": "2c0cee84ec8f8f6872ecce7258d68895f7d4d1fe7ba90b84c2ae0fb1095e5057",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/playback/PlaybackAttempt.kt",
+      "file_type": ".kt",
+      "size": 2727,
+      "sha256": "1bdb4e006b803704f3d078e5cb69bf4a2783d3213b6d5bd9092a4c77b3d318bc",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/playback/PlaybackOrchestrator.kt",
+      "file_type": ".kt",
+      "size": 35812,
+      "sha256": "2dc1dbfe96587e7b6ca82a17315b8eebf4cf55d2aca6b1592dc84bc91b1650bd",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/playback/PlaybackResolutionCache.kt",
+      "file_type": ".kt",
+      "size": 17681,
+      "sha256": "e97ceb97e7edde736c49890b2b935c0896686b74b43634fedb02150355b18057",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/playback/PlaybackSession.kt",
+      "file_type": ".kt",
+      "size": 1764,
+      "sha256": "64699480fa5853ec9a896c0f1f25219b1d08c2f591ddac8ffc522d99d74842fa",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/playback/QualitySufficiencyPolicy.kt",
+      "file_type": ".kt",
+      "size": 2238,
+      "sha256": "8329d2fc93a1575c236331fe8337a1822b34093d6852b71687e6667c855d49d1",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/registry/ManagedExtensionRegistry.kt",
+      "file_type": ".kt",
+      "size": 1821,
+      "sha256": "d96d106c720d60bfe05f9c92debbf3b4c1e9f5a983c1284d195edd55de08fbf1",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/registry/ManagedExtensionRuntimeRegistry.kt",
+      "file_type": ".kt",
+      "size": 8055,
+      "sha256": "809ac8853e5af3b7940de50ea46977e005f39e97cf84307fc3081e2b9ce0f028",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/registry/ScraperRegistry.kt",
+      "file_type": ".kt",
+      "size": 1520,
+      "sha256": "81bd6861e4473d362a9e8e192c988a64ba240bb757bd4d5e5ceda1a307b96d50",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/repository/DefaultManagedExtensionRepository.kt",
+      "file_type": ".kt",
+      "size": 13609,
+      "sha256": "f564a79ae6e94f533bfc2f8cd3b2c16a30d6298c2f0ad657233a7ce2908fc838",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/repository/ExtensionUserPreferences.kt",
+      "file_type": ".kt",
+      "size": 1186,
+      "sha256": "10ae621657d06705cce40250f6c815673566958f57944eabe00c721f12ab2a15",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/repository/FirebaseFirestoreManagedExtensionDataSource.kt",
+      "file_type": ".kt",
+      "size": 2415,
+      "sha256": "8ab1583bf6daad1fd23cd0c718f7fd9c70745828d6a01b49139ef66949487f3f",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/repository/ManagedExtensionCache.kt",
+      "file_type": ".kt",
+      "size": 21329,
+      "sha256": "5bbaca6892ca09f0aa31de203c85607a708d29d09f276ebb25d9c7f18f7c560a",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/repository/ManagedExtensionDto.kt",
+      "file_type": ".kt",
+      "size": 6433,
+      "sha256": "f62a5d069149cb880ade9e5e5b24f280587ac8d7061042484153ab3dbd7a3cb2",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/repository/ManagedExtensionMapper.kt",
+      "file_type": ".kt",
+      "size": 4651,
+      "sha256": "30245646267e36baf012b64401ff58fe6d11be059fc4700e791eb2ac30982680",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/repository/ManagedExtensionRealtimeSyncManager.kt",
+      "file_type": ".kt",
+      "size": 13696,
+      "sha256": "468919e7568c829bc04fbea408e367e18cf16cdf5702423b8f834aea990e713e",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/repository/ManagedExtensionRemoteDataSource.kt",
+      "file_type": ".kt",
+      "size": 331,
+      "sha256": "c7f5703d34c84700c9bcca00ef77823dc92a38e4ebc02874e8d6bf7eda8920ee",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/repository/ManagedExtensionRepository.kt",
+      "file_type": ".kt",
+      "size": 517,
+      "sha256": "ff7ef24696c88e46054d1adca3bf97a62ea99db100f352b291ac192fc285bf79",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/runtime/CredentialProjector.kt",
+      "file_type": ".kt",
+      "size": 1924,
+      "sha256": "fc42f87436eff06b418b713c7653ed60a2361f9aaa4e30baf96833e5aa0271ff",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/runtime/DefaultControlledManagedExtensionRuntime.kt",
+      "file_type": ".kt",
+      "size": 13755,
+      "sha256": "05b9f6ae69a57e78f5f0161e6fc7314ed47b1013214bd6ab2d0ad75aced953f4",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/runtime/ExtensionTimeoutDefaults.kt",
+      "file_type": ".kt",
+      "size": 502,
+      "sha256": "3691059dcffa3c06a71a947d9dc5d35899ef0fdf4eb3540cef1511cde03a46e7",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/runtime/ExtractionSession.kt",
+      "file_type": ".kt",
+      "size": 881,
+      "sha256": "8bafcbbd6bed3e442772e8642d23115a1b50527c875566569e0fa77dcb7785fd",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/runtime/FallbackManager.kt",
+      "file_type": ".kt",
+      "size": 2872,
+      "sha256": "9ad012fe8807af7c98736fcb86f3ea7d156308363f75f91555e193439fe78c67",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/runtime/WorkDiscoverySessionManager.kt",
+      "file_type": ".kt",
+      "size": 5249,
+      "sha256": "4577ba971bbd3c4111b375163aabdc0bc9469f82e73b07a47179246d950f5628",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/runtime/challenge/ChallengeHandler.kt",
+      "file_type": ".kt",
+      "size": 745,
+      "sha256": "16820cda3b5ca3669837ed0f5350ebd5b2365357bd5ffc3ee19cf69053b91af6",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/runtime/context/ExtensionContext.kt",
+      "file_type": ".kt",
+      "size": 2283,
+      "sha256": "58681266bc3153aca3e185516af262267a43a0f69554de7d0f8db0d9ab4f605f",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/runtime/network/ConnectivityMonitor.kt",
+      "file_type": ".kt",
+      "size": 851,
+      "sha256": "71bf02acef8c6c75a3b2234d0a256276c4f3e7f437e27245b063e079fe5a8f76",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/runtime/web/ChallengeStateMachine.kt",
+      "file_type": ".kt",
+      "size": 14481,
+      "sha256": "99dfd4e5cee3a0e12f93d214e030f6782bb3b829fe3af9dfd79d6cffc3fe6f33",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/runtime/web/CloudflareChallengeDetector.kt",
+      "file_type": ".kt",
+      "size": 8527,
+      "sha256": "4c293ea5208f80e4faecf0efa0450c6c7d1a5c7271e99fe3bbc172b67c4c0db8",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/runtime/web/CloudflareForensicLogger.kt",
+      "file_type": ".kt",
+      "size": 10222,
+      "sha256": "65358318609729e3297621de5df11d86e8a513f8cd3493ccb97e55843636b9ef",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/runtime/web/InteractiveChallengeController.kt",
+      "file_type": ".kt",
+      "size": 20127,
+      "sha256": "81bfee393ca9594867259b17b94b1ad89593f259a3d29a8db09f953a9ece25f1",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/runtime/web/PerSiteSessionStore.kt",
+      "file_type": ".kt",
+      "size": 11500,
+      "sha256": "e864f6c2e9dffdb5ac722bcd3e1d5bd54765f052a9502c2a5d6e0ee2f190f772",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/runtime/web/ProtectedSiteSession.kt",
+      "file_type": ".kt",
+      "size": 1845,
+      "sha256": "6c86324fd8486b03ad95daf26ee95d9d550483b37f83bc1151e81d3586fc586e",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/runtime/web/ProtectedWebRuntime.kt",
+      "file_type": ".kt",
+      "size": 16853,
+      "sha256": "99b399bf1a9ad9ddb59efec4ffb481aab3b4f6261fcc9843758d18240404e715",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/runtime/web/ProtectedWebRuntimeError.kt",
+      "file_type": ".kt",
+      "size": 4632,
+      "sha256": "046f26e5c158ee4766708d857debd1bd828c6f3b0c9f0c28f08cfd455038a6b2",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/scraper/Anime4UpScraper.kt",
+      "file_type": ".kt",
+      "size": 30727,
+      "sha256": "62bd7ff9a67a2aa408e3f7e353a6559cb7338f88cb3a6409a7a0bb3c5b292c0a",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/scraper/AnimeBlkomScraper.kt",
+      "file_type": ".kt",
+      "size": 30238,
+      "sha256": "efe3ad1a41bf5311d4afdf29824dd63a7783a53c119f3c18a7a67cfe4c44e3b1",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/scraper/EgyDeadScraper.kt",
+      "file_type": ".kt",
+      "size": 33688,
+      "sha256": "d3cc7604e37731d2913dc9bb13b3229dc2530c2db92574f8b1667ccdd766831d",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/scraper/QfilmScraper.kt",
+      "file_type": ".kt",
+      "size": 49820,
+      "sha256": "cf1b8b6a5783141c636497e387dcd112ebaf64e5327fdeffa9cfc93494e5d4ad",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/scraper/WitanimeScraper.kt",
+      "file_type": ".kt",
+      "size": 31865,
+      "sha256": "c46e019e192cc0d1e9553002c2c8dee22cc6552d9ee70762733f69ea8f8cdeac",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/searchorder/ExtensionEligibilityFilter.kt",
+      "file_type": ".kt",
+      "size": 4756,
+      "sha256": "7f15508e582f8dd91a4c6f374ac9d6923cc0167bddbdf2a0f1caeb87f93b6866",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/searchorder/SearchOrder.kt",
+      "file_type": ".kt",
+      "size": 3168,
+      "sha256": "62605a9d18ddfe54e601331963a83533b505b44201e016de975f91437847a234",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/searchorder/SearchOrderDataSource.kt",
+      "file_type": ".kt",
+      "size": 4260,
+      "sha256": "0e4ec70c4edaa730262861980c21eb276f16165b2be168950c2382c2c53af71a",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/searchorder/SearchOrderRepository.kt",
+      "file_type": ".kt",
+      "size": 2712,
+      "sha256": "b07a85fd0e5ac32ac62de30d38604f1850062107d43b901dac1fd086ee43fecf",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/trace/Phase05GLogger.kt",
+      "file_type": ".kt",
+      "size": 553,
+      "sha256": "28c1b8824ed0dc0600448529990fd17f84cfdada7e8a187742811b3b6bf39501",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/trace/Phase05HLogger.kt",
+      "file_type": ".kt",
+      "size": 537,
+      "sha256": "2327430e1d6d5c4458b26e1f1fb543697e1b3d0816c325697728cab6f8cfa891",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/usecase/DiscoverManagedServersUseCase.kt",
+      "file_type": ".kt",
+      "size": 7122,
+      "sha256": "fc80af6f2bf0f89f968c01bc309689106af38120bc6b751ffd29525403a178d2",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/usecase/ExtractDownloadTaskUseCase.kt",
+      "file_type": ".kt",
+      "size": 2549,
+      "sha256": "c0b8a716660eaeff9e6ea8eb453c62fe0cd46e17e0f5dd41c76fc9ef8fbfa5cf",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/usecase/ExtractPlaybackSourceUseCase.kt",
+      "file_type": ".kt",
+      "size": 2224,
+      "sha256": "a6b91a4780160039ac425f6faf1d775ff2096ef3e7b33fb4456bb725637f56f6",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/usecase/GetManagedEpisodesUseCase.kt",
+      "file_type": ".kt",
+      "size": 2381,
+      "sha256": "a130d6351eedd7cf1dcae6b2082c7475c561446546e1d18b745e42e7ae0d3dfc",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/usecase/GetManagedMediaDetailsUseCase.kt",
+      "file_type": ".kt",
+      "size": 2083,
+      "sha256": "90df05d67fb51d627f5022454666c3ed5990bb62f5574dd5b6f42f925594ba6b",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/usecase/ManagedExtensionResolver.kt",
+      "file_type": ".kt",
+      "size": 10642,
+      "sha256": "b8b2aeb470482e9691b672136026c5c2449f15bb6929108f665f097e51364bd3",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/usecase/SearchManagedExtensionsUseCase.kt",
+      "file_type": ".kt",
+      "size": 19779,
+      "sha256": "19f895eeb19d72f60e30e2eac380c31d9b1a970755c5f1b2a51403c0a17ff5a8",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/web/ControlledWebViewEngine.kt",
+      "file_type": ".kt",
+      "size": 27795,
+      "sha256": "0bf6d5ac4607e334bffc8d97dbbe75bf0343e07be81ca0a835b8c2430c84df71",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/web/JsPackerUnpacker.kt",
+      "file_type": ".kt",
+      "size": 8442,
+      "sha256": "3de76f02c5c20eb06da39fc267a3bc37c341cb2c8829ca0585e5987e610a72d6",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/web/MediaStreamDetector.kt",
+      "file_type": ".kt",
+      "size": 8810,
+      "sha256": "d691db386d98dbb1b192acc962831c318eded69c3bc7e6f324127b07337ceb49",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/web/RuntimeMediaExtractionScript.kt",
+      "file_type": ".kt",
+      "size": 32354,
+      "sha256": "1ba7f62a37972392ed848d1b732d02296fcd3af35d7d3554f5dcc5fe51444f68",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/web/SafeScraperBridge.kt",
+      "file_type": ".kt",
+      "size": 6400,
+      "sha256": "7af43bd9f1e3e03e6babd3b02f5c2f3e1eaf5f2a3481e0aee3a2210083712a13",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/web/StaticMediaExtractor.kt",
+      "file_type": ".kt",
+      "size": 4040,
+      "sha256": "d8824380036a16647986f576f7ef04c495f154f05dbbbdc4218c0c1f957bd655",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/web/TrustedEmbedHostPolicy.kt",
+      "file_type": ".kt",
+      "size": 5688,
+      "sha256": "4bd0845305373232076f2ed44aaab94a88a77904782ee341fa543d3b43c0f009",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/managed/web/WebExtractionEngine.kt",
+      "file_type": ".kt",
+      "size": 1342,
+      "sha256": "86d339185fdf8edfa97214e2cec849c8d55ddf3675da7937d60348f0bad5d32a",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/orchestrator/BackgroundMediaRevalidator.kt",
+      "file_type": ".kt",
+      "size": 15327,
+      "sha256": "93328ec0c7406d2590711f39a3cb995f78a406849b5c5e3bedc6c09fd7e84c3b",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/orchestrator/ManagedDiscoveryOutcome.kt",
+      "file_type": ".kt",
+      "size": 1221,
+      "sha256": "cf7e8909f29dc7ce79417733b2bd746320b5cd0ee6e1db0042a77d91bf850695",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/orchestrator/ManagedMediaOrchestrator.kt",
+      "file_type": ".kt",
+      "size": 54010,
+      "sha256": "a9d0e6f2f8f5f7db6dea122e3182edf3986db11744c688aed6394206bbfe550b",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/extension/orchestrator/SharedPreferencesExtensionUserPreferences.kt",
+      "file_type": ".kt",
+      "size": 1235,
+      "sha256": "c8b424f26a833c1ba096b9c9577c6071c08f891e1f20534c1cd31328fc3912c4",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/navigation/AppNavigation.kt",
+      "file_type": ".kt",
+      "size": 89924,
+      "sha256": "a07ae679b244767b41f68dc176b43a8107e68bbf9508e1c5a8c5ee7c06d87f51",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/navigation/NavigationIntentHandler.kt",
+      "file_type": ".kt",
+      "size": 511,
+      "sha256": "750e6ebb3cc87526a8e75bb1578eb5b39be913f0cb0dfc5a3b6198b7957aa1c2",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/navigation/NotificationIntentParser.kt",
+      "file_type": ".kt",
+      "size": 6687,
+      "sha256": "f7536e0a81aafd986a54c8dfeca308ce26aa602405c4dfe7d4d7a7906e7dfb91",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/navigation/NotificationNavigationContract.kt",
+      "file_type": ".kt",
+      "size": 2939,
+      "sha256": "024a66aeba8aefda536a29deacaf780561ab7ef20d592e67a6ef4030d4d59fd5",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/navigation/Screen.kt",
+      "file_type": ".kt",
+      "size": 4491,
+      "sha256": "a8b6a2c108d62dfc266bcd35d511c45896853ccfb26ac2ec81e163c279255f74",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/services/AppFirebaseMessagingService.kt",
+      "file_type": ".kt",
+      "size": 9622,
+      "sha256": "1cacd1d18cb8500a679c243976617106b1450f2302506c5235eaf2e5aa3fa510",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/ViewModelFactory.kt",
+      "file_type": ".kt",
+      "size": 3159,
+      "sha256": "54c8f99fe72a0d078b2517411912a517bc68ae0cec4d1818987294fa87dad0ef",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/AppUpdateDialog.kt",
+      "file_type": ".kt",
+      "size": 7040,
+      "sha256": "c97228f51db1cbb639cb132e2ebe254cb404c25077f2c4d5de744a4de6942a02",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/BatchDownloadProcessor.kt",
+      "file_type": ".kt",
+      "size": 9244,
+      "sha256": "f4703a343f1e30823fdcf0a985ca794ef087813a3b3f91796957f64fa1b063c1",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/BatchDownloadSheet.kt",
+      "file_type": ".kt",
+      "size": 9280,
+      "sha256": "0d5ebf62f48a4cb2a769121cdd64914672167e3e1b3fe1b31d1f9007e0806471",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/BottomNavBar.kt",
+      "file_type": ".kt",
+      "size": 6670,
+      "sha256": "05c5e66d55658cb926ba23304e82519cae72ccdcde4e5288d01586b8677267d6",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/CategoryNavigationRow.kt",
+      "file_type": ".kt",
+      "size": 3728,
+      "sha256": "487bb88138bbd5846f57810e31fef3e4ee41d9468ef00ae8e821b91744c3cafe",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/CineStreamDropdown.kt",
+      "file_type": ".kt",
+      "size": 28491,
+      "sha256": "ae10feeb771266746931de2faac5a718bdb182fe9f231f61e1264e7cd752562f",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/CustomTopBar.kt",
+      "file_type": ".kt",
+      "size": 4680,
+      "sha256": "4211f554a9b21634d72f1b25ae29764f6664f9144f187c2fd6335d20391c0236",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/Grid.kt",
+      "file_type": ".kt",
+      "size": 2789,
+      "sha256": "14d9bc1d18e4367e67b478eeba8a60747719cea168204c2f868378d41af47d70",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/HeroCarousel.kt",
+      "file_type": ".kt",
+      "size": 13194,
+      "sha256": "ba96ab3768460b60a0ad40002126af58fdfa9fe559c6b077fcd748d7a9251114",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/InlineDetailVideoPlayer.kt",
+      "file_type": ".kt",
+      "size": 112613,
+      "sha256": "f402cd658a8fa5b84b46f311734987c74f1dc9da5301d0e4b463959731ef806f",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/InteractiveChallengeWebView.kt",
+      "file_type": ".kt",
+      "size": 49189,
+      "sha256": "52137c1fc3faadb8b10f1810a4df921136eff25a1c6d11cefedc0530f216f49f",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/LoginRequiredDialog.kt",
+      "file_type": ".kt",
+      "size": 6016,
+      "sha256": "f59206e2f8c49634c648ab053e80148e7283974917a295c9d2374f0abdd2717d",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/MediaActionBottomSheet.kt",
+      "file_type": ".kt",
+      "size": 15812,
+      "sha256": "2f4e291abdaa9e57a9d2c525c41505dca18ceef2444b2e2e557dd4b47398248a",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/MediaCard.kt",
+      "file_type": ".kt",
+      "size": 8504,
+      "sha256": "a4b44b25d1834fd28d73efe2f664f8397740e393fc8685728093688b12be7dbf",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/QrCodeScannerDialog.kt",
+      "file_type": ".kt",
+      "size": 12380,
+      "sha256": "38f91c4747aa33fec08153edb0d74a2e39786d5190995f0b3ae7c19fc6e57097",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/SearchBarDropdown.kt",
+      "file_type": ".kt",
+      "size": 13218,
+      "sha256": "7f5b005f2fbdba338edb3f66a1cfe0334fb765e0f27e7e4014069e70214be8fe",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/SharedUI.kt",
+      "file_type": ".kt",
+      "size": 19647,
+      "sha256": "ee85d3c9e7b42ea776c90899fe4d951f214953bbe1d97c1c163eb164b76ab081",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/Shimmer.kt",
+      "file_type": ".kt",
+      "size": 1944,
+      "sha256": "d3e75a353b26ec68ff7edb01d0943af51a91e33e72859792c4db5e7561dd133f",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/SkeletonScreens.kt",
+      "file_type": ".kt",
+      "size": 20544,
+      "sha256": "129db5ac073385e10b91cd5d388bb99d33681f744284b029d2a1430ad5e46f8e",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/StartAppBanner.kt",
+      "file_type": ".kt",
+      "size": 464,
+      "sha256": "f427374114ba6e1acaf7cdd71d9ad53374510c579667048357abd93e133f8d4f",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/SwipeNavigation.kt",
+      "file_type": ".kt",
+      "size": 1345,
+      "sha256": "343244cca8f583a336c917dc7fdd9bbe7431d0db0fffdf1dc077e96d67efa8b3",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/components/YouTubePlayer.kt",
+      "file_type": ".kt",
+      "size": 16963,
+      "sha256": "5a3fa0563f65a6ef7e4cb850777d10d22ccdf13d70a31f94d4d64c26941b5939",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/about/AboutScreen.kt",
+      "file_type": ".kt",
+      "size": 19293,
+      "sha256": "cb9002870ae7b002cffc88e0d3d1c0cc86187e24f455cc44be7177d0803f6031",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/anime/AnimeScreen.kt",
+      "file_type": ".kt",
+      "size": 34586,
+      "sha256": "67019a1d300bb287293f9779f9c8f19f9d73fb6333a7a2f0b338e9faebabd7e4",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/anime/AnimeViewModel.kt",
+      "file_type": ".kt",
+      "size": 5985,
+      "sha256": "8ab26dc395debb2162bd29f9d5e3ebae3cf0b0bc28b5843b1be1af6841e493e6",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/auth/AuthScreen.kt",
+      "file_type": ".kt",
+      "size": 18635,
+      "sha256": "fad017623df495d2dd4c17bafbacd565eb2409732a59a9f85ca32d571a181d60",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/auth/AuthViewModel.kt",
+      "file_type": ".kt",
+      "size": 17459,
+      "sha256": "d66023824e33fabceb6c7c846a9af410ebfad33e2a508f9e1546d10ef1fb0660",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/banned/BannedScreen.kt",
+      "file_type": ".kt",
+      "size": 15066,
+      "sha256": "304099c072a2f1cb3dda651908a3bfbbb9852eb35d4a19898b920e9361706185",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/crash/CrashActivity.kt",
+      "file_type": ".kt",
+      "size": 26813,
+      "sha256": "f4841528185d6cc1d23f9ee155692cd348c6516c32a27903c17c4868b3aca371",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/details/DetailsScreens.kt",
+      "file_type": ".kt",
+      "size": 135478,
+      "sha256": "f0f22f3dbf05a14e47afe87bfc42faee5f0aec596355329ead578adf176a7342",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/details/DetailsSkeleton.kt",
+      "file_type": ".kt",
+      "size": 6525,
+      "sha256": "6adf18e1336caebe2d882ae1a5e8066ab42542385310510734e844e4c3f8d57e",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/details/MovieDetailsViewModel.kt",
+      "file_type": ".kt",
+      "size": 5786,
+      "sha256": "9d836c6f85ff919affcc698fc5193c41d4dda74d25999d8ff26d35a07bb8ade9",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/details/PersonDetailsScreen.kt",
+      "file_type": ".kt",
+      "size": 21472,
+      "sha256": "3efb125e198cbe4ee6502c15a8fdb7ab7ef0a0d290548236208007a1e5a8eb14",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/details/PersonDetailsViewModel.kt",
+      "file_type": ".kt",
+      "size": 1755,
+      "sha256": "4c070c872529288d6d65960ed985ea99da8785f3eb6c09c78c53240824072175",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/details/SeriesDetailsViewModel.kt",
+      "file_type": ".kt",
+      "size": 21548,
+      "sha256": "2b45a3cc6ec6e7c9de9e1173c21d7c1c0159176b92c0d362845768859202cf53",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/downloads/DownloadsScreen.kt",
+      "file_type": ".kt",
+      "size": 42724,
+      "sha256": "e4d6aff3711760af2e16313d6df8067265153bf7bbb73938386c37363bc7b23c",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/extensions/ExtensionsScreen.kt",
+      "file_type": ".kt",
+      "size": 37074,
+      "sha256": "f1b03c775a64a2d65098282eb74ddbfe32211810a05cc4823931bd9e661069d8",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/extensions/NoExtensionsDialog.kt",
+      "file_type": ".kt",
+      "size": 3735,
+      "sha256": "5bb4acc1a94dc5638c8230d71b94cb6c90d67139efdcaa8bb58363b97d4d90a5",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/home/HomeScreen.kt",
+      "file_type": ".kt",
+      "size": 52473,
+      "sha256": "f9edc0fd1b3faa9de8a8b24a30176757fed3d77b737f768d48974feda7715d10",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/home/HomeViewModel.kt",
+      "file_type": ".kt",
+      "size": 11187,
+      "sha256": "9eba77af1b232c8198c7e3900493c2fd074914a54349356ef0de3a60134328a4",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/home/NewReleasesScreen.kt",
+      "file_type": ".kt",
+      "size": 15388,
+      "sha256": "4c624d84ff3f4e534bc250acb02409fa1f2a5916876553d472fc2b589a2e09f1",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/home/PopularScreen.kt",
+      "file_type": ".kt",
+      "size": 15365,
+      "sha256": "9454cee12c5db04ca9cdab69f4cf78ec62750b88e3af94974872bed399b1567b",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/home/TrendingScreen.kt",
+      "file_type": ".kt",
+      "size": 14636,
+      "sha256": "960ff81eda53c713d225de94c41f6f11fe3e986f38f0cc3fffff27a5831e8936",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/home/UpcomingScreen.kt",
+      "file_type": ".kt",
+      "size": 15370,
+      "sha256": "15f8e3ec864a8ed5593abe95296dee7e5b066c82ec55a734aca1142a39fc71cd",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/home/WatchingScreen.kt",
+      "file_type": ".kt",
+      "size": 7516,
+      "sha256": "b91ef4abddd19b0e8061837358c336db764373a7fceebcaa990b4890423bb958",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/library/LibraryScreen.kt",
+      "file_type": ".kt",
+      "size": 7751,
+      "sha256": "5befc46c744d9f0a1421366a145088a2f04a3b98e3e6362cc3267b27d47a897a",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/maintenance/MaintenanceScreen.kt",
+      "file_type": ".kt",
+      "size": 10796,
+      "sha256": "713d16e161b83ddd44c503bb844031a57ce252b0e8a1297c54cce59068dc4cf1",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/movies/MoviesScreen.kt",
+      "file_type": ".kt",
+      "size": 30371,
+      "sha256": "e4aafb634247c0b0dbde6a08af310a157e598d2233bf80d46b19b2de89246b34",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/movies/MoviesViewModel.kt",
+      "file_type": ".kt",
+      "size": 8072,
+      "sha256": "2ffc00d793ad44a90cb33c9ad5571854e3a71da96b398d7449aaaf3a317baa33",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/notifications/NotificationsScreen.kt",
+      "file_type": ".kt",
+      "size": 15094,
+      "sha256": "b63534db67cf19ed9021153050a9f0043e193312f4b89f8cc06cd8e59180318b",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/notifications/NotificationsViewModel.kt",
+      "file_type": ".kt",
+      "size": 2556,
+      "sha256": "afff909245ec77aa086bd5a2b5b9d3170dfb79442a5e048acb4ec90fd162ac71",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/onboarding/OnboardingScreen.kt",
+      "file_type": ".kt",
+      "size": 17663,
+      "sha256": "2c4b506230d46a05a3db4a80ec9b2c9999fc4e80f1187ef1a7bcea3c555a4f1a",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/player/PlaybackErrorClassifier.kt",
+      "file_type": ".kt",
+      "size": 2613,
+      "sha256": "0057e3cb45bcd46d52823e049fae699ac18c9eddf9b26d7a59ee56b5ad366d84",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/player/PlaybackSyncStore.kt",
+      "file_type": ".kt",
+      "size": 3216,
+      "sha256": "a5c618c81a75c33b744fe27a4bbd15e6b3c05afa4e9d8d7d8c03289e17795210",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/player/PlayerScreen.kt",
+      "file_type": ".kt",
+      "size": 99054,
+      "sha256": "c4bfa0a7d8e9623f3359a99a7b9b1169b6c723a35da0c82b106cb64320de44ad",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/player/PlayerStateHolder.kt",
+      "file_type": ".kt",
+      "size": 333,
+      "sha256": "e066ab0ecee0970d5408124c614712ed1d87eea20e925a493477ea8373f7a25c",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/player/PlayerViewModel.kt",
+      "file_type": ".kt",
+      "size": 43547,
+      "sha256": "ed49b0086adf98ccf348002b8c32621a54f603174511855cba5e69d77e50a65b",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/player/ServerStateStore.kt",
+      "file_type": ".kt",
+      "size": 60590,
+      "sha256": "b72b9aa1b980543f3bb8a2fedbdfd170bb992a6db0b67f07b6bd03c0c8ef35cb",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/player/SmartDownloadQualityDialog.kt",
+      "file_type": ".kt",
+      "size": 40837,
+      "sha256": "f6b7a425439387653a2e9dc573852c23739621884b3a12ea40134b0564fdc631",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/profile/AccountSettingsScreen.kt",
+      "file_type": ".kt",
+      "size": 22893,
+      "sha256": "69a3784d46ed3479a07d49d4afbded5d80e7b6668277d0fce4bb5512d126e25c",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/profile/BlockedUsersScreen.kt",
+      "file_type": ".kt",
+      "size": 10265,
+      "sha256": "d4380e93b0a7ac6956fff3badb5675068d41f0dd717951c407fca53434c3a2d6",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/profile/EditProfileScreen.kt",
+      "file_type": ".kt",
+      "size": 11694,
+      "sha256": "20ae742d4b7b9efcb9dc4a770882b5d54c7b26d1fb3174684591e2a96c360137",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/profile/HelpSupportScreen.kt",
+      "file_type": ".kt",
+      "size": 17148,
+      "sha256": "196ed47cc9370cc9709c37f9e936d242ae47b3f542aff9328a72efee978f1349",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/profile/PointsEarningViewModel.kt",
+      "file_type": ".kt",
+      "size": 14451,
+      "sha256": "ca7d20922fbf9d902fd7a666ee7f1e988acb8844d022de88eacdceea335ac0ee",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/profile/ProfileScreen.kt",
+      "file_type": ".kt",
+      "size": 61393,
+      "sha256": "93846924a124412eb0403e0db6c428199921a991834e86e076a2badb5ebfcaca",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/profile/PublicProfileScreen.kt",
+      "file_type": ".kt",
+      "size": 61885,
+      "sha256": "33da31216bb5c7cbd221b84c9a4a43d1244e78a852009c2c6864e751eadb9346",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/profile/SecurityScreen.kt",
+      "file_type": ".kt",
+      "size": 10130,
+      "sha256": "2e7ef00d4492873813a06fab5d661b9538a00a00fa07ffaafd1492563e12736c",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/profile/SubscriptionScreen.kt",
+      "file_type": ".kt",
+      "size": 123457,
+      "sha256": "74944a63f0d126b4b1305b0bb9f3a30c909b4362ac239bd00b6d3babe285b3d4",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/profile/SupportViewModel.kt",
+      "file_type": ".kt",
+      "size": 6881,
+      "sha256": "4943f8ed9c7d5a792129af66bc46d8ca772a2f8ec7a7509f0a692d4123675c9c",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/search/SearchScreen.kt",
+      "file_type": ".kt",
+      "size": 39583,
+      "sha256": "8e094c33d117199016c8b132fbf6bd902ddadb91ba17bd7453dd184b5f56fb79",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/search/SearchViewModel.kt",
+      "file_type": ".kt",
+      "size": 17177,
+      "sha256": "1d7c799472216589800ea9385a74ac63b7fbab3595da9607ef77db157bfd8592",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/series/SeriesScreen.kt",
+      "file_type": ".kt",
+      "size": 36011,
+      "sha256": "faa6424a431c01e09623f4ff1bc5dd9c7a852f342ebd7ccf864a0a35bc177002",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/series/SeriesViewModel.kt",
+      "file_type": ".kt",
+      "size": 8058,
+      "sha256": "ea8c6b224f88be58849256dbae162e587d4f99937fd3e849845b0d146e6de327",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/settings/NotificationPreferencesDialog.kt",
+      "file_type": ".kt",
+      "size": 17671,
+      "sha256": "f51d1593c6408c4e72d6b351b84c5b06a9d39744e993d201ada95f7922470efb",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/settings/NotificationPreferencesScreen.kt",
+      "file_type": ".kt",
+      "size": 20143,
+      "sha256": "a4ff41dec679a136382afc74998cebdd7756e7329bd62a2437761b4491ea4735",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/settings/NotificationPreferencesViewModel.kt",
+      "file_type": ".kt",
+      "size": 3166,
+      "sha256": "c40dabb08a3ac7a36570657d24e07f8c2f1f354ee92126504c03008155eb38e4",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/settings/SettingsScreen.kt",
+      "file_type": ".kt",
+      "size": 49606,
+      "sha256": "24287f96d53ece7832f426de7ba568ec7018c65d09b6780c180b9b995f6b17f0",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/share/RecentTransfersScreen.kt",
+      "file_type": ".kt",
+      "size": 17356,
+      "sha256": "d2415da89ec92537d22cdac28e93256bf60e642ef91f3302c4414691b683fc90",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/share/ShareScreen.kt",
+      "file_type": ".kt",
+      "size": 130677,
+      "sha256": "1463c36a9a9ecd64766795e76ee2163390b83e7ffb2dc758fe8a208aa2546dcd",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/social/ChatScreen.kt",
+      "file_type": ".kt",
+      "size": 32663,
+      "sha256": "117d2038addc0258ba98e43f1e6273d5536b3be3fc9146d24426ca5bed0ad11c",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/social/ChatViewModel.kt",
+      "file_type": ".kt",
+      "size": 4531,
+      "sha256": "c6ed6309b5cab4a032b92796dc91400b42d5071cac174bdd3554b5606a7d510b",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/social/SocialScreen.kt",
+      "file_type": ".kt",
+      "size": 17645,
+      "sha256": "df7e44074525a83180ad57adccdcc1e58920b0687fd1ba60ef140140e3bb14a8",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/social/SocialViewModel.kt",
+      "file_type": ".kt",
+      "size": 4190,
+      "sha256": "6dc356089e6e2c97fcdac3688732e4fed680913c9a8f6341313b862e46ae0018",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/screens/splash/SplashScreen.kt",
+      "file_type": ".kt",
+      "size": 11701,
+      "sha256": "7b1b194f03d9e308ec86b176bd21a9a2932f06ed1545e10783d14080ddd8bcc7",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/theme/Color.kt",
+      "file_type": ".kt",
+      "size": 686,
+      "sha256": "b84818ee0b2be6bac06a8db2ae120fd2d4e3257d28d18926435f4707646ca268",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/theme/Theme.kt",
+      "file_type": ".kt",
+      "size": 2644,
+      "sha256": "16c41aadd0ade304ca1e28e0ed585637c2463e2848dd3819e99b55fc07f04aaf",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/ui/theme/Type.kt",
+      "file_type": ".kt",
+      "size": 993,
+      "sha256": "69cff2af1fd9cad18688684de64d05afe28f5c25b74558fa588fd1d0aea78d33",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/AdManager.kt",
+      "file_type": ".kt",
+      "size": 5135,
+      "sha256": "56cdcfadc82f76129e0db048782eefbec3bbda7eb809d864460297fa6609c309",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/AndroidDownloader.kt",
+      "file_type": ".kt",
+      "size": 2992,
+      "sha256": "563ab42f2f43f4ceac617aa07e17f36458036c4a28e90b9131f2d284c7667a31",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/AudioPlayer.kt",
+      "file_type": ".kt",
+      "size": 1507,
+      "sha256": "b51486f5a2c6d7867a1a5175db9dfd665ba1b9049e2769b04457bf76d2fab67f",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/AudioRecorder.kt",
+      "file_type": ".kt",
+      "size": 1304,
+      "sha256": "68f0ddb97fe7013bf5b5184329e1e95e55bdd4d910a2b80a6d98830fd595ab04",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/CacheManagementHelper.kt",
+      "file_type": ".kt",
+      "size": 3746,
+      "sha256": "65f23003f959f8575aa3dca3bb24f529285ddb189745dc7bca283228ae1e7b2d",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/DevicePreparationHelper.kt",
+      "file_type": ".kt",
+      "size": 4704,
+      "sha256": "8b169f4feee422cba6593773769ba68a156fe94c7b1f5052566ea1f269ee5e90",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/DeviceStorageExporter.kt",
+      "file_type": ".kt",
+      "size": 12161,
+      "sha256": "1128839d2251588086289dca249c62c2b09c4042a150c79e901845292c878a90",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/DownloadedPostersManager.kt",
+      "file_type": ".kt",
+      "size": 6345,
+      "sha256": "3e4f8aeb0d91b19bdbe7a74a80a06f5c56eba1f909436943d86b989d04bfb652",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/HotspotManager.kt",
+      "file_type": ".kt",
+      "size": 6618,
+      "sha256": "78609c58897d6942bd5cfd0c4b3e48382c65ac6054152026239ddc82701b63f8",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/LastPlaybackStore.kt",
+      "file_type": ".kt",
+      "size": 7931,
+      "sha256": "496467da49ee5de976c07a8a3da1a4cd08b3c41a860407d31fbf6ed51a9b23e2",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/M3U8Parser.kt",
+      "file_type": ".kt",
+      "size": 8459,
+      "sha256": "38675896bc112da9ca356f6a9bcf86b24c4e2f7fd4e3b883c3202c636a27c936",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/MediaDetailsCacheManager.kt",
+      "file_type": ".kt",
+      "size": 18876,
+      "sha256": "5796f246c9929b3a8cdc61041d39160d1e0d30ab9f471020d207728e0f8567ec",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/MediaListDiskCacheManager.kt",
+      "file_type": ".kt",
+      "size": 13842,
+      "sha256": "489b07f3708eaef767a2b82395884a6efa26deb32b090d7ab0047ee79a567ac4",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/MediaStorageUtils.kt",
+      "file_type": ".kt",
+      "size": 15806,
+      "sha256": "b60649d8594cc387a189a878ff4b6d8c669452e0ebde96cfaf92f7114afd94b7",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/NetworkConnectivityObserver.kt",
+      "file_type": ".kt",
+      "size": 2000,
+      "sha256": "8c988e01047000c4c34635c0792e6270d4012b45b459822af27011ab22968d30",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/NetworkUtils.kt",
+      "file_type": ".kt",
+      "size": 6796,
+      "sha256": "8a2677c7ea6fb173bfb91aa2f52e7b1d78c84d9bb61c07687141f4077c6c334d",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/NotificationHelper.kt",
+      "file_type": ".kt",
+      "size": 7202,
+      "sha256": "c4fc0a9a60b92d75a0dbfb2983ed98b6bbb68f744d1b1f19059f1971b3c5a1d7",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/P2PManager.kt",
+      "file_type": ".kt",
+      "size": 103891,
+      "sha256": "651f90b20b5d847e8c48a34a43493d9487a51cdab8aea97172273f4639ac3a65",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/QRCodeGenerator.kt",
+      "file_type": ".kt",
+      "size": 1221,
+      "sha256": "f135a644b1ab2acff1166409cfba3c5e739e151a5039e90a0f0e01dc8d0075b2",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/SeasonFormatter.kt",
+      "file_type": ".kt",
+      "size": 1373,
+      "sha256": "b64ab00bf355d7f51ab4affeb869c1c33bef639292c1405ed391bac633a3f7d0",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/SelectiveCrossfadeTransitionFactory.kt",
+      "file_type": ".kt",
+      "size": 1618,
+      "sha256": "2b82477cf5991cc3662873cc2031cb947ecf28bd5fa12051217e118ce19fcf8e",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/StreamDownloaderService.kt",
+      "file_type": ".kt",
+      "size": 30048,
+      "sha256": "0f61656ef4601eaefa960ca7b87b3a6083608c614d57dec5f0d62a704ed41939",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/java/com/example/utils/TransferNotificationHelper.kt",
+      "file_type": ".kt",
+      "size": 4961,
+      "sha256": "c72b0319eacd6b78b2e110f42fdca94771e08bbda25a5a2dc15278ee0e51e0c8",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+      "file_type": ".xml",
+      "size": 780,
+      "sha256": "53cda3a7cb2e8a92bf996d6eef35fa6f2520d5c49c2083c82fc977dfaa200926",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "file_type": ".xml",
+      "size": 614,
+      "sha256": "59523c3768f4aeee107235556949031cf852f5c3e345b2b57ce34bbf6f247099",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_notification.xml",
+      "file_type": ".xml",
+      "size": 502,
+      "sha256": "2c54cd2d56ae9ad94c20992e0c39acb48a4abe252825c5bab0bf092435d66b3f",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/drawable/onboarding_bg_1.jpg",
+      "file_type": ".jpg",
+      "size": 615011,
+      "sha256": "c401b7e31e8a819aa0ea7a3ca6c97de7ddfaae679e76cbaded89251c874f1984",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/drawable/onboarding_bg_2.jpg",
+      "file_type": ".jpg",
+      "size": 696528,
+      "sha256": "3beb3b044b1391971b061abec2507617fa143ed03095a94be4ab07c283456650",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/drawable/onboarding_bg_3.jpg",
+      "file_type": ".jpg",
+      "size": 729249,
+      "sha256": "35afe789ffea295b3223dc47934262fd47e84f32fae1050db664a7fd899d852b",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "file_type": ".xml",
+      "size": 344,
+      "sha256": "6d0988175971f41bdc83eadb144af3d84c40052fa125e90edbe7d89227be4b25",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "file_type": ".xml",
+      "size": 344,
+      "sha256": "6d0988175971f41bdc83eadb144af3d84c40052fa125e90edbe7d89227be4b25",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "file_type": ".webp",
+      "size": 2096,
+      "sha256": "99221f2905af79868986b0dd1701ea91a5387146ba701c18b2ee2252a67be481",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "file_type": ".webp",
+      "size": 4305,
+      "sha256": "7c93f81de792b7216b0db55c1471abe5fccbbcde8278a25264d83ebf8464f498",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "file_type": ".webp",
+      "size": 1485,
+      "sha256": "b9089fe59f9049e993f92646161e0723496224a44436a2500087e2d05409e8f7",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "file_type": ".webp",
+      "size": 2634,
+      "sha256": "943bd647827e0e7f0fa51be8164f9f1835202d90af6d95ffae44dbb094f44060",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "file_type": ".webp",
+      "size": 2854,
+      "sha256": "b3a0802c4fc82b3fd796cc2d57c0c1ea93e64fdfc46aab1e74a0bfa45fcef4f4",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "file_type": ".webp",
+      "size": 5934,
+      "sha256": "2df674233ecc4e9fe6c8d4dfceb6c3257995e6613b0447b93c4a4893ff61c675",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "file_type": ".webp",
+      "size": 4360,
+      "sha256": "b479b07551ee8fd8ba4f96dc0e5d34ae675d485d8a341c369443b397a2defdbf",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "file_type": ".webp",
+      "size": 8887,
+      "sha256": "cb1b8197fa5009f511a5e9aea71e2eff952355cadaf776a83ab99db28fadb24f",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "file_type": ".webp",
+      "size": 5743,
+      "sha256": "fe039e8aff6718652748d5d2daa5743cbf38759392a7feb723e7c032349b6e81",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "file_type": ".webp",
+      "size": 11709,
+      "sha256": "4d95c8cb035a1827eef9c0cf065e4be0f8fc0b86d6c420e9f3bccc366fba921d",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/values-ar/strings.xml",
+      "file_type": ".xml",
+      "size": 94955,
+      "sha256": "74d1a8b9bd6f12c68f81d829bbb437afcddfdbd09f339896ab0f21594ebdf70c",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "file_type": ".xml",
+      "size": 148,
+      "sha256": "fd3df272a04d1429d50a969cb71dd6be2af43f053cd9d092f4fbdb2773510175",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/values/ids.xml",
+      "file_type": ".xml",
+      "size": 102,
+      "sha256": "87c5e6f52748b89952424119956d9cdb0af4d7df616c60139dde5b05a36e782e",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "file_type": ".xml",
+      "size": 78320,
+      "sha256": "33f9f055f44569e33928f0043eb3c6423302a32180d2c8fb4cdcdc1a39669915",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "file_type": ".xml",
+      "size": 152,
+      "sha256": "b6ac07f8143237f2d9bbbfd8f3301fecd182d8ad49dd27442239c8e17d60f1bd",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/xml/backup_rules.xml",
+      "file_type": ".xml",
+      "size": 764,
+      "sha256": "315f3f89590230d2b548949027ac0f66d03d0d4b63e2cd8bbe56e4a06a7e4ece",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/xml/data_extraction_rules.xml",
+      "file_type": ".xml",
+      "size": 1204,
+      "sha256": "380e60ca2d769e388032421d1b8c523cd35dd459b55a4c5373c3f8ed30034a3e",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/main/res/xml/network_security_config.xml",
+      "file_type": ".xml",
+      "size": 745,
+      "sha256": "6bdc63e8f7eb340a9a4eb20a8600d06b9ac6e5fa2a3e18e67a4ddf62204c2a4a",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Core Android application feature implementation"
+    },
+    {
+      "path": "app/src/test/java/com/example/CoilCrossfadeTest.kt",
+      "file_type": ".kt",
+      "size": 9693,
+      "sha256": "0d768fa0852af7c99bb67f2bbf5da6953fbdb510a2363fde094bc131fdfb601b",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/ContinueWatchingPerformanceTest.kt",
+      "file_type": ".kt",
+      "size": 13271,
+      "sha256": "a61b81fb26fe9b9157080039989c20cc32fb7b7c4da6c8caa3cc75a090cf9941",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/CrashTest.kt",
+      "file_type": ".kt",
+      "size": 903,
+      "sha256": "a7af063a726190797e62ccdc7fdfaa668adb6219f24ffb2413506f5c8aa174ea",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_CRITICAL",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/DownloadedPostersManagerTest.kt",
+      "file_type": ".kt",
+      "size": 8828,
+      "sha256": "6855820fd56663febec234e9de47c2ecc56b27f83408b24299a871fe6331f7fa",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/EconomyContractAlignmentTest.kt",
+      "file_type": ".kt",
+      "size": 7370,
+      "sha256": "cfbc14b3edf635fa95968562715c889fb7b257abe5ff6f6b5ae02bbe71788e4c",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/ExampleRobolectricTest.kt",
+      "file_type": ".kt",
+      "size": 592,
+      "sha256": "34ad0fe6a6f09f0c7735f5335a4aae8c9f5c82a573ac039c007f2157e15a19eb",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/FcmNotificationDeliveryUnitTest.kt",
+      "file_type": ".kt",
+      "size": 17892,
+      "sha256": "50f0243534692fbb448103f4dd45c1995772ae360f5dd7828e3726da6c648d2a",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_CRITICAL",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/FcmPayloadParserUnitTest.kt",
+      "file_type": ".kt",
+      "size": 13068,
+      "sha256": "48b1b7df6faab8b375da1d7cbb063b2fc55821654d05475bf090ab757f8679d5",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_CRITICAL",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/FcmTokenArchitectureUnitTest.kt",
+      "file_type": ".kt",
+      "size": 6367,
+      "sha256": "13f3e6667e54c495892e1efce6fc622d3774b7fc3a75a48b2fce1f67ae3ad2a9",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_CRITICAL",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/HeroCarouselPerformanceTest.kt",
+      "file_type": ".kt",
+      "size": 9384,
+      "sha256": "7b274437dd4715b85803d6ce837ffb198b2de05ad9b3bad2eab06401fb9f87a0",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/NotificationNavigationUnitTest.kt",
+      "file_type": ".kt",
+      "size": 19671,
+      "sha256": "870e2167cd1cc4a783ecd39ba7af4dc55bf6426d19daef14f67bf94611bfe0ff",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/NotificationPreferencesUnitTest.kt",
+      "file_type": ".kt",
+      "size": 49552,
+      "sha256": "f351ff367eaaf2c83c49e075251deb6fcbb9d4b6eb099c064d110e2b08b6cf50",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/Phase07Wave01F008Test.kt",
+      "file_type": ".kt",
+      "size": 3766,
+      "sha256": "5a95b88674809e310a065bece164ffdf40e1f87be3cd46e2cfea9e44f59e91a4",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/Phase07Wave11RemediationTest.kt",
+      "file_type": ".kt",
+      "size": 13151,
+      "sha256": "492374e994b23f750fbf5e11a0f10d98e611f2ba7253d882e7c21c3ccd4a4764",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/Phase07Wave13FiltersAndGenreTest.kt",
+      "file_type": ".kt",
+      "size": 7022,
+      "sha256": "007d2b1968b98383731e9c6d27e237c7538637f637c7b89d2988a6a894643d53",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/Phase07Wave1CoreSecurityTest.kt",
+      "file_type": ".kt",
+      "size": 28201,
+      "sha256": "8f4002c323c132015f6f9f0e7b23e5a2d15a747252f5adca283bb4bde166efa1",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_CRITICAL",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/Phase07Wave21GapClosureTest.kt",
+      "file_type": ".kt",
+      "size": 21997,
+      "sha256": "d16667db7b219fe1da5022fd8d9336a2c48cd399b7722a551f5d52c995596b91",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/Phase07Wave2SessionBoundaryTest.kt",
+      "file_type": ".kt",
+      "size": 20316,
+      "sha256": "2fea3e56b203224fc6b3872efcdcb59ea12b76c69d744e0bfdb9244977a99e03",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_CRITICAL",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/Phase07Wave3ExtensionRevivalTest.kt",
+      "file_type": ".kt",
+      "size": 12502,
+      "sha256": "e67ecb4fa6481789ec936defd533eb4c1b34f4421889f02e02eab963d0bb02cc",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/Phase07Wave3RoomMigrationTest.kt",
+      "file_type": ".kt",
+      "size": 12921,
+      "sha256": "fed6327aaf49ae26eaca8faf5e34a6f9bc0b5dc6c0b07c3b03dd57123989d28f",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_CRITICAL",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/Phase07Wave3StartupAuthTest.kt",
+      "file_type": ".kt",
+      "size": 9106,
+      "sha256": "01d5ac50adf93f2ec04516a294001a8291a963d740584556aa1ce50d3a1aaaa9",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/Phase07Wave4PlaybackOrchestrationTest.kt",
+      "file_type": ".kt",
+      "size": 17414,
+      "sha256": "ffb08655fea663ae2abb7fb5ad7fcd16c218cd877a1ea716dcfe4f322a83739d",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_CRITICAL",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/Phase07Wave567VerificationTest.kt",
+      "file_type": ".kt",
+      "size": 15460,
+      "sha256": "20358c55f3b49696a79b11f52699176a02ebc3368ec188dbc6a6fe609aa7106d",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/Phase07Wave9RemediationTest.kt",
+      "file_type": ".kt",
+      "size": 21156,
+      "sha256": "f666bfc229f4a23dcc5e0102971fe3b6f7d3c4698522c7589a2bfef38a702722",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/Phase081CategoryNavigationRestorationTest.kt",
+      "file_type": ".kt",
+      "size": 10418,
+      "sha256": "baa2a622ddb48c123673a3ce504eadecc386c1f2d136ccc217213371e1f1ba0b",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/Phase08AdvancedFilterActivationTest.kt",
+      "file_type": ".kt",
+      "size": 6979,
+      "sha256": "9d727e4992418b086df3b71f8e5c808bd318aecb0e65bcd07525464fa89791ca",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/Phase09CCrashRemediationAndVariantUITest.kt",
+      "file_type": ".kt",
+      "size": 10690,
+      "sha256": "7d78c0335cfe1d3e066e7f0abf4d1fe325f440b8b8604682f0512efefdec3faa",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_CRITICAL",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/Phase10BDubbedAndTmdbIdentityTest.kt",
+      "file_type": ".kt",
+      "size": 12234,
+      "sha256": "9976a9a07aa480fcfb0c8df3c95a0cab4baf610bf3bc944f9230ec62db135fad",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_CRITICAL",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/SubscriptionQualityDecouplingUnitTest.kt",
+      "file_type": ".kt",
+      "size": 20480,
+      "sha256": "c4beeadec978394e87de5894c78fa5aea5d63452873e546b8fe10025027acfd7",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/TrendingTabStatePerformanceTest.kt",
+      "file_type": ".kt",
+      "size": 12429,
+      "sha256": "d7700e946d1703c22e3002fdd7882db73ae054c36b034ef5cada6836b9381e89",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/YouTubePlayerUnitTest.kt",
+      "file_type": ".kt",
+      "size": 3437,
+      "sha256": "b4b61699291bf5dd8aec676ac2434fe55ed278257ee2230ad60e6df2b7e330b5",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/Anime4UpScraperUnitTest.kt",
+      "file_type": ".kt",
+      "size": 18764,
+      "sha256": "52d7d82c4412012fc141a3bdfe085196e2739e7cfc60fb7e959ce0ad26690a79",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/AnimeBlkomScraperUnitTest.kt",
+      "file_type": ".kt",
+      "size": 17160,
+      "sha256": "ee376caa19102cb8bf235918a90b22ace0ba2baca25f589d4bf43516a15abb5f",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/CompatibilityAndLifecycleTest.kt",
+      "file_type": ".kt",
+      "size": 7969,
+      "sha256": "d6ce162233c838aeb638ee09151e5fffb0e1501ae8e4c20b0e29cd96b8e6343a",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/ControlledRuntimeTest.kt",
+      "file_type": ".kt",
+      "size": 3186,
+      "sha256": "b1eb7a67e019da7ee3322aac8fffb743f727444301eba60beef42add4c611b20",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/CredentialProjectorTest.kt",
+      "file_type": ".kt",
+      "size": 2300,
+      "sha256": "bf8d0437cab05de0479b79a707a7e11336dbd3a868b71827f134f24530d0220e",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/EgyDeadScraperUnitTest.kt",
+      "file_type": ".kt",
+      "size": 23657,
+      "sha256": "6677c828ba43287de6b56ca2cb327618be5192c263bc369ad45b771c15781708",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/FallbackManagerTest.kt",
+      "file_type": ".kt",
+      "size": 7892,
+      "sha256": "5618cba4b636d6e493165e1390c68ecfe0309d340f9089a975e2e91b52470382",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/FirestoreRulesAlignmentTest.kt",
+      "file_type": ".kt",
+      "size": 7394,
+      "sha256": "63eadaf41703bfce03b43c5ccf17fcc80a549a1272ec8fe61e056fba48705386",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/LegacyIsolationArchitectureTest.kt",
+      "file_type": ".kt",
+      "size": 3746,
+      "sha256": "f0a4eed5bc552d06a4d4494cfddad701771f311912864e70493affb744ab23de",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/ManagedExtensionCacheTest.kt",
+      "file_type": ".kt",
+      "size": 3090,
+      "sha256": "d64ea74cb0861bcd2b98d045978cea4baa4a04071b67bee37172ecc1f1ab38bb",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/ManagedExtensionDtoAndMapperTest.kt",
+      "file_type": ".kt",
+      "size": 4548,
+      "sha256": "c2b9a9181129cc50fae3cfac74b9bc93f3cd24f1ac40bb72918eec51e32120ce",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/ManagedExtensionRegistryTest.kt",
+      "file_type": ".kt",
+      "size": 3628,
+      "sha256": "1b3707247ba8cc320124c851ea7d568d0c4c05aea9799db7489e1b9cbc81bbe2",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/ManagedExtensionRepositoryTest.kt",
+      "file_type": ".kt",
+      "size": 8073,
+      "sha256": "1353d260e4c14f0422e3b53da34463fd90d7a623643ec828641aa76f4a0aed29",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/ManagedExtensionValidationTest.kt",
+      "file_type": ".kt",
+      "size": 5355,
+      "sha256": "b566fe1a7c57a047176af9e057d151309b4b13a29e357f4254fffedc4138df95",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/ManagedMediaOrchestratorTest.kt",
+      "file_type": ".kt",
+      "size": 8341,
+      "sha256": "94cb4812e0458246ff6108fb57818d05e29bc75210d68e270f6f4d52d5240d77",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/Phase09BAuditVerificationTest.kt",
+      "file_type": ".kt",
+      "size": 22434,
+      "sha256": "6dffbe056c1984e44f28ffdb2f46646bbefb5ab3c167b8b321329c89851fc299",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/Phase09BDubbedAndMultiProviderTest.kt",
+      "file_type": ".kt",
+      "size": 9280,
+      "sha256": "f66782e831193ffb062293e1188f202c041c07694cd6709b205676a5fcb5f580",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_CRITICAL",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/Phase65RuntimeContractAndEnvironmentTest.kt",
+      "file_type": ".kt",
+      "size": 24440,
+      "sha256": "1a8fda27a0604582113dc0ec324e6668648dc28a2c0a637e6f97e8b3199d1173",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/Phase66ExtensionDeveloperContractTest.kt",
+      "file_type": ".kt",
+      "size": 40385,
+      "sha256": "4705ea9c32a76d63b728b135c55a3e6d6a3275e3ee8f3f25fccd490d9df07f7b",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/Phase6CorrectivePlaybackTest.kt",
+      "file_type": ".kt",
+      "size": 9636,
+      "sha256": "f0ee394401d2a9ed1fd95d4db3ce6adc9dca2bc49c191657eddac34ed0ff8ce4",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_CRITICAL",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/Phase6UsersAppIntegrationTest.kt",
+      "file_type": ".kt",
+      "size": 21983,
+      "sha256": "fc347264e1a8b2f5290441dbcfe61ff394e251e95e615e26c963eaef5f0a0d4b",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/Phase715MultiServerMultiQualityExtractionTest.kt",
+      "file_type": ".kt",
+      "size": 18637,
+      "sha256": "a20f60927fbb7be7d12b5ec6b0d20a9752b726457d852c8abf5840551649d6a0",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/Phase716PlaybackResumeAndBackgroundRevalidationTest.kt",
+      "file_type": ".kt",
+      "size": 31776,
+      "sha256": "364ba7867655e61a0f3a20d34f64eabc5ca7ed9f5e6e493aefa6901044fb0cb2",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_CRITICAL",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/Phase717UnifiedDownloadFlowTest.kt",
+      "file_type": ".kt",
+      "size": 32977,
+      "sha256": "536aff9642ce8fd8be375869f72a1615afcb5c8a1d7ce361d411fe3ab110471a",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/Phase718DownloadInspectionAndIsolationTest.kt",
+      "file_type": ".kt",
+      "size": 10772,
+      "sha256": "f4638ae2abba6c0b6bbe6cea4b2938cbdf15fc8d48624523cd5f2ad07e4e7c45",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/QfilmForensicPipelineTest.kt",
+      "file_type": ".kt",
+      "size": 7000,
+      "sha256": "4bd96b5d8409442ecac50bc4bf187e4672083e5b08bbeda6400d0e0a2e9635d6",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/QfilmLiveDiagnosticTest.kt",
+      "file_type": ".kt",
+      "size": 1830,
+      "sha256": "fb93455fe1e1b0057bf8b917dfc145241ed76026658aade8d1f3c4d324c4f7dc",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/QfilmScraperUnitTest.kt",
+      "file_type": ".kt",
+      "size": 29812,
+      "sha256": "063c48a4048c42e5fbaec0229195a2d9ef3c0ca373518639a05fa2a7d6303b5b",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/SafeScraperBridgeTest.kt",
+      "file_type": ".kt",
+      "size": 4833,
+      "sha256": "ce6f821fce65867eecce79064b0976a40217a02c5c166bdfb2d2df9ea5246f6c",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/ScraperRegistryTest.kt",
+      "file_type": ".kt",
+      "size": 4015,
+      "sha256": "cf73b15b1962a50940a9ca8378447e884abf64e0b742c0bb9a92b1d28965f290",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/WebExtractionEngineRestorationTest.kt",
+      "file_type": ".kt",
+      "size": 18563,
+      "sha256": "77568b83c19623a8516763deea6b9ab565808abfbbe686ca2b44f903d1a69cc8",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/WitanimeScraperUnitTest.kt",
+      "file_type": ".kt",
+      "size": 21709,
+      "sha256": "f62e5f7772687f97aef614782dce5147475e9c41de6089bd34856adcec4cf182",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/playback/PlaybackOrchestratorTest.kt",
+      "file_type": ".kt",
+      "size": 12314,
+      "sha256": "1e0868144b71014114a0ba2e4693f549735ba1b1b363f4873b3e83939f932392",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_CRITICAL",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/runtime/web/CloudflareChallengeDetectorTest.kt",
+      "file_type": ".kt",
+      "size": 6458,
+      "sha256": "8a0988fc4fda5b631423785076936e01b1b002295ee9db933ec33c0b5a45f15f",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/runtime/web/PerSiteSessionStoreAndSecurityTest.kt",
+      "file_type": ".kt",
+      "size": 8693,
+      "sha256": "8f8f231b172eba7b310632caf0246af054479e6b360b968d31fd771e6cf15a6d",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_CRITICAL",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/runtime/web/Phase05Q5CCandidateCancellationIsolationTest.kt",
+      "file_type": ".kt",
+      "size": 3335,
+      "sha256": "20c2ea31121cbde58e194ee3064ce66e51286bd1fcd1641ba028713039369e61",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/runtime/web/ProtectedWebRuntimeIntegrationTest.kt",
+      "file_type": ".kt",
+      "size": 14194,
+      "sha256": "62a9dd1efcf87afb21741cff698e131483d03c58acec811bb49c8db3781fb81d",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/extension/managed/searchorder/SearchOrderAndEligibilityTest.kt",
+      "file_type": ".kt",
+      "size": 7206,
+      "sha256": "73746361ff10387b9eae506c220f3a87ec5fef3a6b2e1b0e741fad68118117bc",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_CRITICAL",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/ui/components/MediaCardTest.kt",
+      "file_type": ".kt",
+      "size": 6574,
+      "sha256": "3a5d652b239458498da507cb1bf1239df88aefcd6a2613030f808ef9ddfc3594",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/ui/components/ShimmerTest.kt",
+      "file_type": ".kt",
+      "size": 4066,
+      "sha256": "3cb8cff6ecd2653a44de3e21dc04f812be4d988633a6ddd5decd3e1963c33f82",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/java/com/example/ui/screens/home/CallbackStabilityTest.kt",
+      "file_type": ".kt",
+      "size": 7130,
+      "sha256": "2de77f94f772173f9d8f6793af8c44b446fa1e5d37b686cbfb294cecff68de2a",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "app/src/test/screenshots/greeting.png",
+      "file_type": ".png",
+      "size": 2868,
+      "sha256": "08b77a026d9f6bc52b9404021e164eaf16d033701ddc0cdb1caabe6f5e7ed01b",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "assets/.aistudio/.gitignore",
+      "file_type": "none",
+      "size": 2,
+      "sha256": "cdbcae15105d6b781e620813c79c7e868740d4e9cc53ce6f5fcbbc12387adf4b",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": "backend/package.json",
+      "file_type": ".json",
+      "size": 447,
+      "sha256": "416c2cc495bbdf8a200534dfd098b3cc96f62cd0829b290392a4eaf1b129db1e",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": "backend/src/auth.ts",
+      "file_type": ".ts",
+      "size": 1785,
+      "sha256": "48efd246267891f9e6083a6479034c4fda9d60c12c713d37acd531bc6a4107f7",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Cloudflare Worker backend microservice"
+    },
+    {
+      "path": "backend/src/config.ts",
+      "file_type": ".ts",
+      "size": 3261,
+      "sha256": "1c9eef17e13d9547c8941a21bfb715d95c83cc15f77e90e7d84ada5cb8eec634",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Cloudflare Worker backend microservice"
+    },
+    {
+      "path": "backend/src/earning.ts",
+      "file_type": ".ts",
+      "size": 27213,
+      "sha256": "00de4761b67ab4a2ccafe7c1687018d5469acec9b3c36e54efef0cb3aba76208",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Cloudflare Worker backend microservice"
+    },
+    {
+      "path": "backend/src/idempotency.ts",
+      "file_type": ".ts",
+      "size": 915,
+      "sha256": "c9466f47ea283c7427c418bb255a95cde2fced4a438b99865b54a66fd26d3cda",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Cloudflare Worker backend microservice"
+    },
+    {
+      "path": "backend/src/index.ts",
+      "file_type": ".ts",
+      "size": 11457,
+      "sha256": "33967e89a6bf70b14136f7e6172928a679dc3f6f4d28d8e4688d78670bbff061",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Cloudflare Worker backend microservice"
+    },
+    {
+      "path": "backend/src/types.ts",
+      "file_type": ".ts",
+      "size": 6164,
+      "sha256": "7143b878cc635b55747271cca1a5fbfd0f8382b733406aacbdb7a07d1096d59e",
+      "classification": "PRODUCTION_SOURCE",
+      "decision": "KEEP_PRODUCTION",
+      "reason": "Cloudflare Worker backend microservice"
+    },
+    {
+      "path": "backend/test/backend_suite.test.js",
+      "file_type": ".js",
+      "size": 27045,
+      "sha256": "cb1dc37fbbf0423680fa9d8de6cf86af30ff32254179d713e46969913dbb7dd2",
+      "classification": "REGRESSION_TEST",
+      "decision": "KEEP_REGRESSION",
+      "reason": "Protects critical business logic and regression prevention"
+    },
+    {
+      "path": "backend/tsconfig.json",
+      "file_type": ".json",
+      "size": 356,
+      "sha256": "92b0c71c3cb7f737ea681ac37b076d1ff77f075255a290f6535428fde430a50f",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": "backend/wrangler.toml",
+      "file_type": ".toml",
+      "size": 373,
+      "sha256": "f9a2b785e32e24fa95d0affa9f5bbfeb11fca8bcba4f1a85a16ff28d76b50009",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": "build.gradle.kts",
+      "file_type": ".kts",
+      "size": 405,
+      "sha256": "2d3c2b9e7e2cf6a7eede8c67899769ff7d5c1810d29797b74d584f0253df851a",
+      "classification": "BUILD_CONFIGURATION",
+      "decision": "KEEP_CONFIG",
+      "reason": "Essential Gradle build configuration"
+    },
+    {
+      "path": "debug.keystore",
+      "file_type": ".keystore",
+      "size": 2666,
+      "sha256": "07b6cc0ed206f4290ceadd1b0ba52739c58cf6d5493142511583cf3bea475cc4",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": "debug.keystore.base64",
+      "file_type": ".base64",
+      "size": 3556,
+      "sha256": "864665a23c49f3a967d858f06711dc295fc32186a0edb332934019b5bf19d2d8",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": "docs/EXTENSION_DEVELOPER_CONTRACT.md",
+      "file_type": ".md",
+      "size": 29747,
+      "sha256": "9a9df238a19cc9a86566099030bc66e53e711cd5fca115e02756c0f1fd794859",
+      "classification": "ARCHITECTURE_DOCUMENT",
+      "decision": "KEEP_CONTRACT",
+      "reason": "Shared architectural contract or documentation"
+    },
+    {
+      "path": "docs/FIREBASE_CONTRACT.md",
+      "file_type": ".md",
+      "size": 12744,
+      "sha256": "b9eeeff9d7191f12f22e99b8e86bebe91dce61ab1bd783bba9cdd376f6516bc4",
+      "classification": "ARCHITECTURE_DOCUMENT",
+      "decision": "KEEP_CONTRACT",
+      "reason": "Shared architectural contract or documentation"
+    },
+    {
+      "path": "docs/legacy/README.md",
+      "file_type": ".md",
+      "size": 937,
+      "sha256": "beb44cae453f0cb27ee90ebcb81e4543204db71d8f0e201d5fc342021aaa65e3",
+      "classification": "ARCHITECTURE_DOCUMENT",
+      "decision": "KEEP_CONTRACT",
+      "reason": "Shared architectural contract or documentation"
+    },
+    {
+      "path": "docs/legacy/firebase-debug.log",
+      "file_type": ".log",
+      "size": 6512,
+      "sha256": "407b2b10f98c80bbc767d1798eb1a32ec603825cf63ee412d593c46e6039414d",
+      "classification": "ARCHITECTURE_DOCUMENT",
+      "decision": "KEEP_CONTRACT",
+      "reason": "Shared architectural contract or documentation"
+    },
+    {
+      "path": "firebase-applet-config.json",
+      "file_type": ".json",
+      "size": 481,
+      "sha256": "b9fa007ad4c815072321dddf7159e87c0052b8b0034900b50c387eb8308ba1a4",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": "firestore.rules",
+      "file_type": ".rules",
+      "size": 17543,
+      "sha256": "a760916aad3c5bdebd9b83de7f31c130128562462d816e6fbd938ee70f25b3d1",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": "gradle.properties",
+      "file_type": ".properties",
+      "size": 1637,
+      "sha256": "5510b5e620528213c32f8ad80dd58b2fa118d1eab184eb260561e4d432cf2c11",
+      "classification": "BUILD_CONFIGURATION",
+      "decision": "KEEP_CONFIG",
+      "reason": "Essential Gradle build configuration"
+    },
+    {
+      "path": "gradle/libs.versions.toml",
+      "file_type": ".toml",
+      "size": 7954,
+      "sha256": "4f367a18e6b371a560cacf07bd6c82cd5909d4ad9eaf947234b1520931e4de93",
+      "classification": "BUILD_CONFIGURATION",
+      "decision": "KEEP_CONFIG",
+      "reason": "Essential Gradle build configuration"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "file_type": ".jar",
+      "size": 46175,
+      "sha256": "b3a875ddc1f044746e1b1a55f645584505f4a10438c1afea9f15e92a7c42ec13",
+      "classification": "BUILD_CONFIGURATION",
+      "decision": "KEEP_CONFIG",
+      "reason": "Essential Gradle build configuration"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "file_type": ".properties",
+      "size": 252,
+      "sha256": "00724f496217ff8d04046c9422507a8d06152b753d1ee719740a668464b5fb9f",
+      "classification": "BUILD_CONFIGURATION",
+      "decision": "KEEP_CONFIG",
+      "reason": "Essential Gradle build configuration"
+    },
+    {
+      "path": "gradlew",
+      "file_type": "none",
+      "size": 8618,
+      "sha256": "fb68debc1b1acf8ec55dc0d5e5495e1dedd0bd6b61f304bee61613eeb2bd9b92",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": "gradlew.bat",
+      "file_type": ".bat",
+      "size": 2896,
+      "sha256": "fedad02c18e266ec094995a5751b7fe1eb6e74f66bf75db64fae2e50eb22c234",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": "metadata.json",
+      "file_type": ".json",
+      "size": 301,
+      "sha256": "fac2e7b939df44cb2af1d7b6afd0b17e8bbc5e1a1ae2741ec09b61aa575db184",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": "package-lock.json",
+      "file_type": ".json",
+      "size": 18352,
+      "sha256": "74ebe03c95f4fece24ae6cb901ddbdd9d039ea871c4f70ffc79c3f0b14ac73ff",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": "package.json",
+      "file_type": ".json",
+      "size": 51,
+      "sha256": "d69f5a540189858897f8d2582cc6cf4124bc2d61358fac7b18f61a326532bdea",
+      "classification": "PROJECT_ROOT_CONFIG",
+      "decision": "KEEP_CONFIG",
+      "reason": "Root level project configuration"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "file_type": ".kts",
+      "size": 518,
+      "sha256": "6aa5ffe23e2528f3709059fd0e6f70878dc019e0bef1ccc99b425bec6446f9db",
+      "classification": "BUILD_CONFIGURATION",
+      "decision": "KEEP_CONFIG",
+      "reason": "Essential Gradle build configuration"
+    },
+    {
+      "path": "tmp/test_init.gradle",
+      "file_type": ".gradle",
+      "size": 80,
+      "sha256": "307603d47630685d8ef4fe3466600692f174a808c1a3198fd1e39e6c5ddd7ae9",
+      "classification": "LEGACY_TEMPORARY",
+      "decision": "KEEP_LEGACY_REFERENCE",
+      "reason": "Retained for external toolchain compatibility"
+    }
+  ]
+}
