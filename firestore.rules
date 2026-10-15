@@ -54,8 +54,8 @@ service cloud.firestore {
 
     // Users Collection
     match /users/{userId} {
-      // Any authenticated user can read public profiles or own profile
-      allow read: if isAuthenticated();
+      // Owner or Admin can read full private user document (addresses A05)
+      allow read: if isOwner(userId) || isAdmin();
       
       // User can create their own document with restricted initial fields
       allow create: if isOwner(userId) &&
@@ -92,21 +92,40 @@ service cloud.firestore {
           'admin', 'isAdmin'
         ]);
 
-      // User updates in TEMPORARY ECONOMY MODE: Owner can update profile, economy, and subscription fields.
-      // Strict denial is maintained against administrative privileges, bans, and technical quality/download limits.
+      // Hardened User updates: Owner can only update non-sensitive profile fields (displayName, username, photoUrl, bio, etc.).
+      // Strict denial is enforced against administrative privileges, bans, subscriptions, and economy/points fields (addresses A09 & B01).
       allow update: if isAdmin() || (
         isOwner(userId) &&
         !request.resource.data.diff(resource.data).affectedKeys()
-          .hasAny(['role', 'admin', 'isAdmin',
-                  'deviceLimit', 'maxDevices', 'allowedQuality', 'downloadLimit',
-                  'isActive', 'isBanned', 'banReason', 'banExpiresAt',
-                  'canWatch', 'canDownload', 'canChat', 'canStory', 'canP2P',
-                  'watchBan', 'downloadBan', 'chatBan', 'storyBan', 'p2pBan',
-                  'offlineDaysOverride', 'forcedAdsOverride'])
+          .hasAny([
+            // Identity & System immutables
+            'uid', 'email', 'createdAt',
+            // Admin & Roles
+            'role', 'admin', 'isAdmin',
+            // Bans & Limits
+            'isActive', 'isBanned', 'banReason', 'banExpiresAt',
+            'canWatch', 'canDownload', 'canChat', 'canStory', 'canP2P',
+            'watchBan', 'downloadBan', 'chatBan', 'storyBan', 'p2pBan',
+            'deviceLimit', 'maxDevices', 'allowedQuality', 'downloadLimit',
+            'offlineDaysOverride', 'forcedAdsOverride',
+            // Subscription fields (addresses A09)
+            'isPremium', 'subscriptionTier', 'subscriptionStatus',
+            'subscriptionExpiresAt', 'subscriptionStartedAt', 'subscriptionSource',
+            'subscriptionReferenceId', 'proExpiresAt', 'proPlan', 'plan', 'planId',
+            'durationDays', 'vip',
+            // Economy & Points fields (addresses B01)
+            'pointsBalance', 'totalPointsEarned', 'totalPointsSpent', 'points', 'balance'
+          ])
       );
 
       // User deletion: Owner or admin can delete user document
       allow delete: if isOwner(userId) || isAdmin();
+
+      // Dedicated Public Profile Subcollection for future safe cross-user reads
+      match /public/{docId} {
+        allow read: if isAuthenticated();
+        allow write: if isOwner(userId) || isAdmin();
+      }
 
       // User subcollections (Library, History, Watched Episodes)
       match /library/{itemId} {
@@ -121,16 +140,18 @@ service cloud.firestore {
         allow read, write: if isOwner(userId) || isAdmin();
       }
 
-      // User Point Transactions Ledger: In TEMPORARY ECONOMY MODE, allows owner self-audit logging
+      // User Point Transactions Ledger: Strictly Admin / Trusted Backend managed (addresses B02)
       match /point_transactions/{txId} {
         allow read: if isOwner(userId) || isAdmin();
-        allow write: if isAdmin() || (isOwner(userId) && request.resource.data.userId == userId);
+        allow write: if isAdmin();
       }
 
-      // User Task Claims: In TEMPORARY ECONOMY MODE, allows owner self-claim recording
+      // User Task Claims: Separate create/update/delete explicitly (addresses Section 3.G & B04)
       match /task_claims/{claimId} {
         allow read: if isOwner(userId) || isAdmin();
-        allow write: if isAdmin() || (isOwner(userId) && request.resource.data.userId == userId);
+        allow create: if isAdmin() || (isOwner(userId) && request.resource.data.userId == userId);
+        allow update: if isAdmin();
+        allow delete: if isAdmin();
       }
 
       // User Settings (Notification Preferences)
@@ -267,13 +288,16 @@ service cloud.firestore {
         request.resource.data.userId == request.auth.uid &&
         (request.resource.data.status == 'open' || request.resource.data.status == 'pending');
 
-      // User can update their own conversation metadata, but cannot change userId or createdAt
-      // Admin can update all fields (e.g. status, admin notes)
+      // User can update their own conversation metadata (lastMessage, lastMessageTime, updatedAt),
+      // but CANNOT change userId, createdAt, or status (addresses D04).
+      // If status is supplied in user update, it MUST match existing status (resource.data.status).
+      // Admin can update all fields (status, notes, etc.)
       allow update: if isAdmin() || (
         isAuthenticated() &&
         resource.data.userId == request.auth.uid &&
         request.resource.data.userId == resource.data.userId &&
-        (!('createdAt' in request.resource.data) || request.resource.data.createdAt == resource.data.createdAt)
+        (!('createdAt' in request.resource.data) || request.resource.data.createdAt == resource.data.createdAt) &&
+        (!('status' in request.resource.data) || request.resource.data.status == resource.data.status)
       );
 
       // Only Admin can delete support conversations
@@ -332,9 +356,24 @@ service cloud.firestore {
           get(/databases/$(database)/documents/users/$(request.auth.uid)).data.canChat != false &&
           get(/databases/$(database)/documents/users/$(request.auth.uid)).data.chatBan != true &&
           get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isBanned != true;
-        allow update, delete: if isAuthenticated() && (
-          isAdmin() ||
-          (resource != null && resource.data.senderId == request.auth.uid)
+        // Update message: Admin, or original sender (for editing text/deleting), or recipient participant (for reactions/deletedFor only) (addresses C07)
+        allow update: if isAuthenticated() && (
+          isAdmin() || (
+            resource != null &&
+            (request.auth.uid in get(/databases/$(database)/documents/conversations/$(conversationId)).data.participants) &&
+            request.resource.data.senderId == resource.data.senderId &&
+            (!('id' in request.resource.data) || request.resource.data.id == resource.data.id) &&
+            (!('timestamp' in request.resource.data) || request.resource.data.timestamp == resource.data.timestamp) &&
+            (
+              // Case 1: Original sender can edit text, isEdited, isDeleted, reactions, deletedFor
+              (resource.data.senderId == request.auth.uid) ||
+              // Case 2: Conversation participant (recipient) can ONLY update reactions and/or deletedFor
+              (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['reactions', 'deletedFor']))
+            )
+          )
+        );
+        allow delete: if isAdmin() || (
+          isAuthenticated() && resource != null && resource.data.senderId == request.auth.uid
         );
       }
     }
